@@ -9,11 +9,15 @@ export default {
    ** Headers of the page
    */
   head: {
-    title: pkg.name,
+    title: 'Able Logistics',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: pkg.description }
+      {
+        hid: 'description',
+        name: 'description',
+        content: 'Bangkok Based international freight forwarding company.'
+      }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },

@@ -1,8 +1,8 @@
 {
   "name": "able-logistics",
   "version": "1.0.0",
-  "description": "My first-rate Nuxt.js project",
-  "author": "jennie",
+  "description": "Bangkok Based international freight forwarding company.",
+  "author": "Able Logistics",
   "private": true,
   "scripts": {
     "dev": "nuxt",

@@ -24,13 +24,24 @@
           </p>
         </div>
         <div class="col-md-8 col-sm-9 col-12 _dp-f-sm _dp-b _jtfct-spbtw">
+          <n-link to="/">
+            <h5
+              v-html="'Home'"
+              class="_cl-primary _fw-bold _bdbtw-1px _bdbtw-0px-sm _pdbt-4px _dp-b-sm _dp-n"
+              style="border-color:#aecbcf;"
+            />
+          </n-link>
           <div
             v-for="(menu, i) in menu"
             :key="`ft-${i}`"
             class="_mgv-16px _mgv-0px-sm"
           >
             <n-link :to="menu.path">
-              <h5 v-html="menu.title" class="_cl-white _fw-bold" />
+              <h5
+                v-html="menu.title"
+                class="_cl-primary _fw-bold _bdbtw-1px _bdbtw-0px-sm _pdbt-4px"
+                style="border-color:#aecbcf;"
+              />
             </n-link>
             <div v-if="menu.subMenu">
               <div

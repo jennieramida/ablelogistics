@@ -2,11 +2,11 @@
   <div class="_bgcl-white _bsd-default ">
     <div class="container _pdv-12px">
       <div class="row _dp-f _alit-ct _jtfct-spbtw">
-        <div class="col-sm-1">
+        <div class="_dp-f _pdl-16px">
           <n-link to="/">
             <img
               src="../assets/images/ablelogistic.jpg"
-              class="branding _h-64px "
+              class="branding _h-64px-sm _h-48px "
               alt=""
             />
           </n-link>
@@ -17,6 +17,13 @@
               {{ menu.title }}
             </h5>
           </n-link>
+        </div>
+        <div class=" _dp-n-sm _dp-f _pdr-16px">
+          <div class="hamburger-menu _dp-n-sm">
+            <div class="bar top"></div>
+            <div class="bar middle"></div>
+            <div class="bar bottom"></div>
+          </div>
         </div>
       </div>
     </div>
@@ -60,5 +67,36 @@ export default {
   &:hover {
     color: $primary-dark !important;
   }
+}
+
+.hamburger-menu {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height: 2.5rem;
+  width: 2.5rem;
+  cursor: pointer;
+}
+
+.hamburger-menu .bar {
+  height: 5px;
+  background: $primary-dark;
+  border-radius: 5px;
+  margin: 3px 0px;
+  transform-origin: left;
+  transition: all 0.5s;
+}
+
+.hamburger-menu:hover .top {
+  transform: rotate(45deg);
+}
+
+.hamburger-menu:hover .middle {
+  opacity: 0;
+}
+
+.hamburger-menu:hover .bottom {
+  transform: rotate(-45deg);
 }
 </style>

@@ -5,7 +5,8 @@
         Able Logistics
       </h1>
       <h5 class="_lh-150pct _mgv-8px _fs-4-sm _fs-5">
-        All of your needs is our concerns & missions to meet with.
+        All of your needs is our concerns <br class="_dp-n-sm _dp-b" />
+        & missions to meet with.
       </h5>
     </div>
     <!-- Loop -->
