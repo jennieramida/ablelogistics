@@ -2,7 +2,11 @@
   <div>
     <div class="row _pst-rlt _dp-f-md _dp-n">
       <div class="col-12 force-full-width _pdh-0px">
-        <img src="../../assets/images/ablehero.jpg" class="mobile-img" alt="" />
+        <img
+          src="../../assets/images/ablehero.jpg"
+          class="_w-100vw _ptev-n"
+          alt=""
+        />
       </div>
       <div
         class="typing-hero  _tal-r-md _tal-ct _jtfct-fe-md _alit-fe-md _fdrt-cl _jtfct-ct _alit-ct"
@@ -80,7 +84,7 @@
         </div>
         <img
           src="../../assets/images/ablehero-mobile.jpg"
-          class="_w-100vw _ptev-n"
+          class="mobile-img"
           alt=""
         />
       </div>
