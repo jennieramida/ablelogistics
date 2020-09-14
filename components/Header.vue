@@ -11,7 +11,9 @@
             />
           </n-link>
         </div>
-        <div class="col-sm-10 _dp-f-sm _dp-n _alit-ct _jtfct-fe _mgl-24px">
+        <div
+          class="col-md-10 col-sm-9 _dp-f-sm _dp-n _alit-ct _jtfct-fe _mgl-24px"
+        >
           <n-link :to="menu.path" v-for="(menu, i) in menu" :key="`menu-${i}`">
             <h5 class="header-menu _mgl-48px _fw-bold _udl-hover-primary-dark">
               {{ menu.title }}
