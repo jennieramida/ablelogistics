@@ -29,29 +29,29 @@
               >
             </h5></a
           >
-          <a href="tel:+6691-123-1234"
+          <a href="tel:+6626797080"
             ><h5 class="_mgt-24px">
               <img
                 src="../assets/images/phone.jpg"
                 class="_w-16px _mgbt-4px _mgr-8px"
               />
               <span class="_udl-hover-primary-dark"
-                ><b>Tel</b>: +6691-123-1234</span
+                ><b>Tel</b>: +662-679-7080</span
               >
             </h5></a
           >
-          <a href="tel:+6691-123-1234"
+          <a href="tel:+6626797081"
             ><h5 class="_mgt-24px">
               <img
                 src="../assets/images/fax.jpg"
                 class="_w-16px _mgbt-4px _mgr-8px"
               />
               <span class="_udl-hover-primary-dark"
-                ><b>Fax</b>: +662-123-1234</span
+                ><b>Fax</b>: +662-679-7081</span
               >
             </h5></a
           >
-          <a href="https://goo.gl/maps/Jzn9K4JBJvVVK9wG7" target="_blank">
+          <a href="https://goo.gl/maps/ZBht87eZA2zseSAw7" target="_blank">
             <h5 class="_mgt-24px">
               <img
                 src="../assets/images/map.jpg"
@@ -66,7 +66,7 @@
     <!-- MAP -->
     <div class=" force-full-width _dp-f _jtfct-ct _alit-ct">
       <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3875.9259505010255!2d100.53002534997744!3d13.72293290161279!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e29f328104cc07%3A0x2385fba4ec2df5d8!2sAble%20Logistics%20Co.%2CLTD.!5e0!3m2!1sen!2sth!4v1599848284209!5m2!1sen!2sth"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7751.821758752916!2d100.54502353488772!3d13.723845199999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e2994e7263debf%3A0xfec5a61a0865ac05!2z4Lil4Li44Lih4Lie4Li04LiZ4Li14LiX4Liy4Lin4LmA4Lin4Lit4Lij4LmMIChMdW1waW5pIFRvd2VyKQ!5e0!3m2!1sen!2sth!4v1600453133039!5m2!1sen!2sth"
         class="_w-100vw"
         height="500"
         frameborder="0"

@@ -9,14 +9,14 @@ export default {
    ** Headers of the page
    */
   head: {
-    title: 'Able Logistics',
+    title: 'Able Logistics | Bangkok Based international freight forwarding company.',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       {
         hid: 'description',
         name: 'description',
-        content: 'Bangkok Based international freight forwarding company.'
+        content: 'Strategically located near both the Customs house and the Port of Authority of Thailand for an easy access to operate and provide the fastest services to all customers.'
       }
     ],
     link: [
