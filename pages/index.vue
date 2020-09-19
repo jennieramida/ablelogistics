@@ -31,7 +31,7 @@
             <n-link to="/services/sea-freight">
               <img
                 src="../assets/images/services/sea-freight.jpg"
-                class="_w-100pct _mgt-32px sv-img _ojf-cv"
+                class="_w-100pct _mgt-32px  _ojf-cv"
                 alt=""
               />
               <div class="_dp-f _jtfct-spbtw _alit-ct _cl-dark _mgt-12px">
@@ -44,7 +44,7 @@
             <n-link to="/services/air-freight">
               <img
                 src="../assets/images/services/air-freight.jpg"
-                class="_w-100pct _mgt-32px sv-img _ojf-cv"
+                class="_w-100pct _mgt-32px  _ojf-cv"
                 alt=""
               />
               <div class="_dp-f _jtfct-spbtw _alit-ct _cl-dark _mgt-12px">
@@ -57,7 +57,7 @@
             <n-link to="/services/rail-road">
               <img
                 src="../assets/images/services/rail-road.jpg"
-                class="_w-100pct _mgt-32px sv-img _ojf-cv"
+                class="_w-100pct _mgt-32px  _ojf-cv"
                 alt=""
               />
               <div class="_dp-f _jtfct-spbtw _alit-ct _cl-dark _mgt-12px">
@@ -70,7 +70,7 @@
             <n-link to="/services/customs-broker">
               <img
                 src="../assets/images/services/customs-broker.jpg"
-                class="_w-100pct _mgt-32px sv-img _ojf-cv"
+                class="_w-100pct _mgt-32px  _ojf-cv"
                 alt=""
               />
               <div class="_dp-f _jtfct-spbtw _alit-ct _cl-dark _mgt-12px">
@@ -155,11 +155,6 @@ export default {
       color: $primary-dark !important;
     }
     transform: translateY(-10px);
-  }
-  @media (max-width: $sm) {
-    .sv-img {
-      max-height: 180px;
-    }
   }
 }
 </style>

@@ -25,7 +25,7 @@
         >
           <img
             src="../../assets/images/services/air-freight.jpg"
-            class="_w-100pct sv-img _ojf-cv"
+            class="_w-100pct _ojf-cv"
             alt=""
           />
         </div>

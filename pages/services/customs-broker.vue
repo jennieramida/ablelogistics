@@ -25,7 +25,7 @@
         >
           <img
             src="../../assets/images/services/customs-broker.jpg"
-            class="_w-100pct sv-img _ojf-cv"
+            class="_w-100pct  _ojf-cv"
             alt=""
           />
         </div>

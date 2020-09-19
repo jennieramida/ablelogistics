@@ -4,7 +4,7 @@
     <div class="container  _mgv-64px-sm _mgv-32px">
       <div class="row _mgbt-48px">
         <div
-          class="col-12 _dp-b-sm _dp-f _fdrt-cl _alit-ct"
+          class="col-12 _dp-b-sm  _dp-f _fdrt-cl _alit-ct _tal-l-sm _tal-ct"
           v-scroll-reveal="{ delay: 300, origin: 'left', distance: '120px' }"
         >
           <h1 class="_cl-dark _fw-bold">Rail Road Services</h1>
@@ -25,7 +25,7 @@
         >
           <img
             src="../../assets/images/services/rail-road.jpg"
-            class="_w-100pct sv-img _ojf-cv"
+            class="_w-100pct _ojf-cv"
             alt=""
           />
         </div>
