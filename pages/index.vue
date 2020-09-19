@@ -31,7 +31,7 @@
             <n-link to="/services/sea-freight">
               <img
                 src="../assets/images/services/sea-freight.jpg"
-                class="_w-100pct _mgt-32px sv-img"
+                class="_w-100pct _mgt-32px sv-img _ojf-cv"
                 alt=""
               />
               <div class="_dp-f _jtfct-spbtw _alit-ct _cl-dark _mgt-12px">
@@ -44,7 +44,7 @@
             <n-link to="/services/air-freight">
               <img
                 src="../assets/images/services/air-freight.jpg"
-                class="_w-100pct _mgt-32px sv-img"
+                class="_w-100pct _mgt-32px sv-img _ojf-cv"
                 alt=""
               />
               <div class="_dp-f _jtfct-spbtw _alit-ct _cl-dark _mgt-12px">
@@ -57,7 +57,7 @@
             <n-link to="/services/rail-road">
               <img
                 src="../assets/images/services/rail-road.jpg"
-                class="_w-100pct _mgt-32px sv-img"
+                class="_w-100pct _mgt-32px sv-img _ojf-cv"
                 alt=""
               />
               <div class="_dp-f _jtfct-spbtw _alit-ct _cl-dark _mgt-12px">
@@ -70,7 +70,7 @@
             <n-link to="/services/customs-broker">
               <img
                 src="../assets/images/services/customs-broker.jpg"
-                class="_w-100pct _mgt-32px sv-img"
+                class="_w-100pct _mgt-32px sv-img _ojf-cv"
                 alt=""
               />
               <div class="_dp-f _jtfct-spbtw _alit-ct _cl-dark _mgt-12px">
@@ -81,7 +81,7 @@
           </div>
         </div>
         <div class="row _dp-f _dp-n-sm _jtfct-ct _mgt-24px">
-          <n-link to="/services" class="_mgt-24px _mgt-0px-sm">
+          <n-link to="/services" class="_mgt-64px _mgt-0px-sm">
             <button class="_bgcl-primary _cl-dark">
               <h6 class="_fs-6-sm _fs-5">Learn More</h6>
             </button>

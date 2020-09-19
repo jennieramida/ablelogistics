@@ -25,7 +25,7 @@
         >
           <img
             src="../../assets/images/services/rail-road.jpg"
-            class="_w-100pct sv-img"
+            class="_w-100pct sv-img _ojf-cv"
             alt=""
           />
         </div>

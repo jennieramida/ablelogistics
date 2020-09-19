@@ -97,7 +97,9 @@
       class="row _jtfct-ct _bdtw-1px _bdcl-primary _mgt-64px-sm _mgt-32px _pdt-64px-sm _pdt-32px"
     >
       <div v-scroll-reveal="{ delay: 300 }" class="col-sm-10 col-12">
-        <h2 class="_cl-primary-dark _fw-bold _fs-4-sm _fs-5 _tal-ct _mgbt-48px">
+        <h2
+          class="_cl-primary-dark _fw-bold _fs-4-sm _fs-5 _tal-ct _mgbt-48px _lh-150pct"
+        >
           We are a member of the world’s largest and most powerful network of
           independent freight forwarders, WCA – Leading the World in Logistics
           Partnering

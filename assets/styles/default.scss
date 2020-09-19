@@ -50,9 +50,9 @@ button {
   }
   font-family: 'Karla', sans-serif;
   transition: 0.2s $bezier;
-  &:hover {
-    transform: scale(1.08);
-  }
+  // &:hover {
+  //   transform: scale(1.08);
+  // }
   &:focus {
     outline: none !important;
   }
@@ -232,4 +232,12 @@ ul li::before {
   display: inline-block;
   width: 1em;
   margin-left: -1em;
+}
+
+.db {
+  border: 1px solid salmon;
+}
+
+._ojf-cv {
+  object-fit: cover;
 }

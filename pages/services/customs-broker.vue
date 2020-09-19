@@ -6,7 +6,7 @@
         class="row _mgbt-48px _dp-b-sm _dp-f _fdrt-cl _alit-ct"
         v-scroll-reveal="{ delay: 300, origin: 'left', distance: '120px' }"
       >
-        <div class="col-12">
+        <div class="col-12 _dp-f _fdrt-cl _alit-ct _tal-l-sm _tal-ct">
           <h1 class="_cl-dark _fw-bold">Customs Broker Service</h1>
           <div class="_bgcl-primary _w-64px _mgt-8px _h-4px"></div>
           <h5
@@ -25,7 +25,7 @@
         >
           <img
             src="../../assets/images/services/customs-broker.jpg"
-            class="_w-100pct sv-img"
+            class="_w-100pct sv-img _ojf-cv"
             alt=""
           />
         </div>
@@ -127,7 +127,7 @@ export default {
 
 <style lang="scss" scoped>
 @media (max-width: $sm) {
-  .sv-img {
+  .sv-img _ojf-cv {
     max-height: 180px;
   }
 }

@@ -23,11 +23,21 @@
             </h5>
           </n-link>
         </div>
-        <div class=" _dp-n-sm _dp-f _pdr-16px">
-          <div class="hamburger-menu _dp-n-sm">
-            <div class="bar top"></div>
-            <div class="bar middle"></div>
-            <div class="bar bottom"></div>
+        <div class="_dp-n-sm _dp-f _pdr-16px">
+          <div class="_dp-f _alit-ct  _jtfct-fe ">
+            <button
+              :class="{ '-open': $store.state.menu.isShowingMenu }"
+              class="_dp-f _alit-ct _jtfct-fe _pd-0px _zid-1 _bgcl-tpr _bdcl-tpr hamburger-container _w-32px _h-32px "
+              @click="
+                $store.commit(
+                  'menu/SET_MOBILE_MENU',
+                  !$store.state.menu.isShowingMenu
+                )
+              "
+            >
+              <div class="hamburger-btn" />
+            </button>
+            <MobileMenu v-show="$store.state.menu.isShowingMenu" />
           </div>
         </div>
       </div>
@@ -36,8 +46,11 @@
 </template>
 
 <script>
+import MobileMenu from '~/components/MobileMenu.vue'
 export default {
+  components: { MobileMenu },
   data: () => ({
+    isShowingMenu: false,
     menu: [
       {
         title: 'Home',
@@ -107,5 +120,146 @@ export default {
 
 .hamburger-menu:hover .bottom {
   transform: rotate(-45deg);
+}
+
+// hhhhhh
+
+._width {
+  width: 200px;
+}
+.menu-active {
+  // border-bottom: solid 3px $primary;
+  // padding-bottom: 2px;
+  // pointer-events: none;
+  display: inline-block;
+  position: relative;
+  &::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(1) translateY(4px) !important;
+    height: 2px;
+    bottom: 5px;
+    left: 0;
+    background-color: $primary;
+    transform-origin: bottom left;
+    transition: transform 0.25s ease-out;
+    cursor: pointer;
+  }
+}
+
+.header-button {
+  background-color: transparent;
+  &:hover {
+    background-color: $primary;
+    color: white;
+    transition: 0.3s;
+  }
+}
+
+:any-link {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.hamburger-container {
+  z-index: 7 !important;
+  &.-open {
+    .hamburger-btn {
+      background: $primary;
+      background-color: $primary;
+      position: fixed;
+      &::before {
+        width: 33px;
+        top: 0px;
+        transform: rotate(-45deg);
+        transition: 0.2s;
+        background: white;
+        content: ' ';
+        &:hover {
+          width: 33px;
+        }
+      }
+      &::after {
+        width: 33px;
+        top: 0px;
+        transform: rotate(45deg);
+        transition: 0.2s;
+        background: white;
+        content: ' ';
+        &:hover {
+          width: 33px;
+        }
+      }
+    }
+  }
+
+  .hamburger-btn {
+    width: 33px;
+    height: 3px;
+    background: $primary;
+    border-radius: 8px;
+    position: absolute;
+    transition: 0.2s;
+    :not(.-open) {
+      &:hover {
+        width: 28px;
+        &::before {
+          width: 33px;
+        }
+        &::after {
+          width: 30px;
+        }
+      }
+    }
+
+    &::before {
+      width: 28px;
+      position: absolute;
+      height: 3px;
+      background: $primary;
+      border-radius: 8px;
+      content: ' ';
+      top: -11px;
+      right: 0px;
+      transition: 0.2s;
+    }
+
+    &::after {
+      position: absolute;
+      width: 28px;
+      height: 3px;
+      background: $primary;
+      border-radius: 8px;
+      content: ' ';
+      top: 11px;
+      right: 0px;
+      transition: 0.2s;
+    }
+  }
+}
+
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  &::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0) translateY(4px);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: $primary;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+    cursor: pointer;
+  }
+}
+
+.hover-underline-animation:hover::after {
+  transform: scaleX(1) translateY(4px);
+  transform-origin: bottom left;
+  cursor: pointer;
 }
 </style>

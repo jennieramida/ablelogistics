@@ -33,7 +33,7 @@
         >
           <img
             src="../../assets/images/services/sea-freight.jpg"
-            class="_w-100pct sv-img"
+            class="_w-100pct sv-img _ojf-cv"
             alt=""
           />
         </div>
@@ -50,7 +50,7 @@
               v-html="
                 'Feugiat hendrerit congue eu posuere sed lorem commodo suspendisse.'
               "
-              class="_lh-150pct _mgr-128px-md _mgr-64px-sm _mgt-12px _cl-grey-dark"
+              class="_lh-150pct _mgr-128px-md _mgr-64px-sm _mgt-12px _cl-grey-dark _tal-l-sm _tal-ct"
             />
             <h6 class="_udl-hover-primary-dark _mgt-48px-sm _mgt-16px">
               Learn More ➞
@@ -66,7 +66,7 @@
         >
           <img
             src="../../assets/images/services/air-freight.jpg"
-            class="_w-100pct sv-img"
+            class="_w-100pct sv-img _ojf-cv"
             alt=""
           />
         </div>
@@ -83,7 +83,7 @@
               v-html="
                 'Feugiat hendrerit congue eu posuere sed lorem commodo suspendisse.'
               "
-              class="_lh-150pct _mgr-128px-md _mgr-64px-sm _mgt-12px _cl-grey-dark"
+              class="_tal-l-sm _tal-ct _lh-150pct _mgr-128px-md _mgr-64px-sm _mgt-12px _cl-grey-dark"
             />
             <h6 class="_udl-hover-primary-dark _mgt-48px-sm _mgt-16px">
               Learn More ➞
@@ -99,7 +99,7 @@
         >
           <img
             src="../../assets/images/services/rail-road.jpg"
-            class="_w-100pct sv-img"
+            class="_w-100pct sv-img _ojf-cv"
             alt=""
           />
         </div>
@@ -116,7 +116,7 @@
               v-html="
                 'Feugiat hendrerit congue eu posuere sed lorem commodo suspendisse.'
               "
-              class="_lh-150pct _mgr-128px-md _mgr-64px-sm _mgt-12px _cl-grey-dark"
+              class="_tal-l-sm _tal-ct _lh-150pct _mgr-128px-md _mgr-64px-sm _mgt-12px _cl-grey-dark"
             />
             <h6 class="_udl-hover-primary-dark _mgt-48px-sm _mgt-16px">
               Learn More ➞
@@ -132,7 +132,7 @@
         >
           <img
             src="../../assets/images/services/customs-broker.jpg"
-            class="_w-100pct sv-img"
+            class="_w-100pct sv-img _ojf-cv"
             alt=""
           />
         </div>
@@ -149,7 +149,7 @@
               v-html="
                 'Feugiat hendrerit congue eu posuere sed lorem commodo suspendisse.'
               "
-              class="_lh-150pct _mgr-128px-md _mgr-64px-sm _mgt-12px _cl-grey-dark"
+              class="_tal-l-sm _tal-ct _lh-150pct _mgr-128px-md _mgr-64px-sm _mgt-12px _cl-grey-dark"
             />
             <h6 class="_udl-hover-primary-dark _mgt-48px-sm _mgt-16px">
               Learn More ➞

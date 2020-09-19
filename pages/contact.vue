@@ -22,7 +22,7 @@
           v-scroll-reveal="{ delay: 800, origin: 'right', distance: '120px' }"
         >
           <h4
-            class="_cl-dark _mgt-24px-sm _mgt-32px _tal-l-sm _tal-ct _lh-150pct _fw-bold _fs-5 _fs-4-sm"
+            class="_cl-dark _mgt-24px-sm _mgt-32px _tal-l  _lh-150pct _fw-bold _fs-5 _fs-4-sm"
           >
             For further information or inquiries, <br class="_dp-b-sm _dp-n" />
             please feel free to contact us
