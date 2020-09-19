@@ -12,13 +12,17 @@
         class="typing-hero  _tal-r-md _tal-ct _jtfct-fe-md _alit-fe-md _fdrt-cl _jtfct-ct _alit-ct"
       >
         <!-- <h6 class="_cl-white">ABLE Logistics was established since 2000</h6> -->
-        <h1 class="_cl-white _lh-125pct">Our wide range of services</h1>
-        <h1 class="_cl-white _lh-125pct">
+        <h1 v-scroll-reveal="{ delay: 100 }" class="_cl-white _lh-125pct">
+          Our wide range of services
+        </h1>
+        <h1 v-scroll-reveal="{ delay: 300 }" class="_cl-white _lh-125pct">
           at <span class="_fw-bold">ABLE logistics</span> covered
         </h1>
 
         <vue-typed-js
+          v-scroll-reveal="{ delay: 500 }"
           :typeSpeed="120"
+          :startDelay="1800"
           :backDelay="3000"
           :loop="true"
           :shuffle="true"
@@ -37,7 +41,7 @@
         >
           <h1 class="typing _ttf-cptl _fs-extra-l _cl-white _fw-bold"></h1>
         </vue-typed-js>
-        <n-link to="/services">
+        <n-link v-scroll-reveal="{ delay: 800 }" to="/services">
           <h5
             class="_mgt-64px-md _mgt-32px-sm _cl-white secondary-link _udl-hover-white"
           >

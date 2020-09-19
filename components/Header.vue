@@ -12,7 +12,12 @@
           </n-link>
         </div>
         <div class="_pdr-16px-sm _dp-f-sm _dp-n _alit-ct _jtfct-fe _mgl-24px">
-          <n-link :to="menu.path" v-for="(menu, i) in menu" :key="`menu-${i}`">
+          <n-link
+            v-scroll-reveal="{ delay: 300 * i }"
+            :to="menu.path"
+            v-for="(menu, i) in menu"
+            :key="`menu-${i}`"
+          >
             <h5 class="header-menu _mgl-48px _fw-bold _udl-hover-primary-dark">
               {{ menu.title }}
             </h5>

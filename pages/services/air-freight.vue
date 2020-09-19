@@ -3,7 +3,10 @@
     <!-- Hero -->
     <div class="container  _mgv-64px-sm _mgv-32px">
       <div class="row _mgbt-48px ">
-        <div class="col-12 _dp-b-sm _dp-f _fdrt-cl _alit-ct">
+        <div
+          class="col-12 _dp-b-sm _dp-f _fdrt-cl _alit-ct"
+          v-scroll-reveal="{ delay: 300, origin: 'left', distance: '120px' }"
+        >
           <h1 class="_cl-dark _fw-bold">Air Freight</h1>
           <div class="_bgcl-primary _w-64px _mgt-8px _h-4px"></div>
           <h5
@@ -16,14 +19,20 @@
         </div>
       </div>
       <div class="row _alit-ct">
-        <div class="col-sm-6">
+        <div
+          class="col-sm-6"
+          v-scroll-reveal="{ delay: 1200, origin: 'left', distance: '120px' }"
+        >
           <img
             src="../../assets/images/services/air-freight.jpg"
             class="_w-100pct sv-img"
             alt=""
           />
         </div>
-        <div class="col-sm-6 _pdl-64px-sm">
+        <div
+          class="col-sm-6 _pdl-64px-sm"
+          v-scroll-reveal="{ delay: 1200, origin: 'right', distance: '120px' }"
+        >
           <h4 class="_cl-dark _mgt-24px _lh-150pct _fw-bold _fs-5 _fs-4-sm">
             <ul>
               <li>Packing/Crating</li>
@@ -48,10 +57,11 @@
           <div
             class="col-sm-9 _mgt-24px _mgt-0px-sm _dp-f _jtfct-spbtw-sm _jtfct-ct _alit-fe"
           >
-            <h1 class="_fw-bold _fs-2-sm _fs-3 ">
+            <h1 v-scroll-reveal class="_fw-bold _fs-2-sm _fs-3 ">
               Our Services
             </h1>
             <n-link
+              v-scroll-reveal
               to="/services"
               class="_udl-hover-primary-dark _dp-f-sm _dp-n"
             >
@@ -60,7 +70,7 @@
           </div>
         </div>
         <div class="row _jtfct-ct">
-          <div class="col-sm-3">
+          <div class="col-sm-3" v-scroll-reveal="{ delay: 400 }">
             <n-link to="/services/sea-freight">
               <img
                 src="../../assets/images/services/sea-freight.jpg"
@@ -73,7 +83,7 @@
               </div>
             </n-link>
           </div>
-          <div class="col-sm-3">
+          <div class="col-sm-3" v-scroll-reveal="{ delay: 800 }">
             <n-link to="/services/rail-road">
               <img
                 src="../../assets/images/services/rail-road.jpg"
@@ -86,7 +96,7 @@
               </div>
             </n-link>
           </div>
-          <div class="col-sm-3">
+          <div class="col-sm-3" v-scroll-reveal="{ delay: 1200 }">
             <n-link to="/services/customs-broker">
               <img
                 src="../../assets/images/services/customs-broker.jpg"

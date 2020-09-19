@@ -11,10 +11,14 @@
       <div class="container _pdv-24px-sm">
         <div class="row ">
           <div class="col-12 _dp-f _jtfct-spbtw-sm _jtfct-ct _alit-fe">
-            <h1 class="_fw-bold _fs-2-sm _fs-3 ">
+            <h1
+              class="_fw-bold _fs-2-sm _fs-3 "
+              v-scroll-reveal="{ delay: 500, origin: 'left' }"
+            >
               Our Services
             </h1>
             <n-link
+              v-scroll-reveal="{ delay: 500, origin: 'right' }"
               to="/services"
               class="_udl-hover-primary-dark _dp-f-sm _dp-n"
             >
@@ -23,7 +27,7 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-sm-3 services-card">
+          <div v-scroll-reveal="{ delay: 500 }" class="col-sm-3 services-card">
             <n-link to="/services/sea-freight">
               <img
                 src="../assets/images/services/sea-freight.jpg"
@@ -36,7 +40,7 @@
               </div>
             </n-link>
           </div>
-          <div class="col-sm-3 services-card">
+          <div v-scroll-reveal="{ delay: 700 }" class="col-sm-3 services-card">
             <n-link to="/services/air-freight">
               <img
                 src="../assets/images/services/air-freight.jpg"
@@ -49,7 +53,7 @@
               </div>
             </n-link>
           </div>
-          <div class="col-sm-3 services-card">
+          <div v-scroll-reveal="{ delay: 900 }" class="col-sm-3 services-card">
             <n-link to="/services/rail-road">
               <img
                 src="../assets/images/services/rail-road.jpg"
@@ -62,7 +66,7 @@
               </div>
             </n-link>
           </div>
-          <div class="col-sm-3 services-card">
+          <div v-scroll-reveal="{ delay: 1100 }" class="col-sm-3 services-card">
             <n-link to="/services/customs-broker">
               <img
                 src="../assets/images/services/customs-broker.jpg"
@@ -89,10 +93,21 @@
       <div class="container">
         <div class="row">
           <div class="col-12 _dp-f _fdrt-r-sm _fdrt-cl _jtfct-spbtw _alit-ct">
-            <h3 class="_fw-bold _cl-white _fs-3-sm _fs-4 _tal-l-sm _tal-ct">
+            <h3
+              v-scroll-reveal="{ delay: 500, origin: 'left', distance: '80px' }"
+              class="_fw-bold _cl-white _fs-3-sm _fs-4 _tal-l-sm _tal-ct"
+            >
               Need more information? We are ready to serve you with speed.
             </h3>
-            <n-link to="/contact" class="_mgt-24px _mgt-0px-sm">
+            <n-link
+              v-scroll-reveal="{
+                delay: 500,
+                origin: 'right',
+                distance: '80px'
+              }"
+              to="/contact"
+              class="_mgt-24px _mgt-0px-sm"
+            >
               <button class="_bgcl-white _cl-dark">
                 <h6 class="_fs-6-sm _fs-5">Contact Us</h6>
               </button>

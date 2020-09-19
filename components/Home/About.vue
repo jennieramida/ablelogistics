@@ -2,10 +2,14 @@
   <div>
     <div class="row ">
       <div class="col-sm-12 _tal-ct _mgbt-48px _dp-f _fdrt-cl _alit-ct">
-        <h1 class="_cl-primary-dark _fw-bold _fs-2-sm _fs-3   _pdbt-12px">
+        <h1
+          v-scroll-reveal="{ delay: 300 }"
+          class="_cl-primary-dark _fw-bold _fs-2-sm _fs-3   _pdbt-12px"
+        >
           Able Logistics
         </h1>
         <div
+          v-scroll-reveal="{ delay: 500 }"
           class="_bdtw-2px _bdcl-primary-very-light _pst-rlt line _mgbt-24px"
         >
           <!-- Star -->
@@ -30,13 +34,17 @@
           </div>
         </div>
         <!-- Star -->
-        <h5 class="_lh-150pct _mgv-8px _fs-4-sm _fs-5">
+        <h5
+          v-scroll-reveal="{ delay: 500 }"
+          class="_lh-150pct _mgv-8px _fs-4-sm _fs-5"
+        >
           All of your needs is our concerns <br class="_dp-n-sm _dp-b" />
           & missions to meet with.
         </h5>
       </div>
       <!-- Loop -->
       <div
+        v-scroll-reveal="{ delay: 800 }"
         class="col-sm-4 col-12 _dp-f _fdrt-cl-sm _fdrt-r _alit-ct _mgbt-0px-sm _mgbt-24px"
       >
         <img
@@ -52,6 +60,7 @@
         </h6>
       </div>
       <div
+        v-scroll-reveal="{ delay: 1100 }"
         class="col-sm-4 col-12 _dp-f _fdrt-cl-sm _fdrt-r _alit-ct _mgbt-0px-sm _mgbt-24px"
       >
         <img
@@ -67,7 +76,10 @@
           fastest services to all customers.
         </h6>
       </div>
-      <div class="col-sm-4 col-12 _dp-f _fdrt-cl-sm _fdrt-r _alit-ct ">
+      <div
+        v-scroll-reveal="{ delay: 1400 }"
+        class="col-sm-4 col-12 _dp-f _fdrt-cl-sm _fdrt-r _alit-ct "
+      >
         <img
           src="../../assets/images/abt-3.png"
           class="about-icon _f-1"
@@ -84,14 +96,17 @@
     <div
       class="row _jtfct-ct _bdtw-1px _bdcl-primary _mgt-64px-sm _mgt-32px _pdt-64px-sm _pdt-32px"
     >
-      <div class="col-sm-10 col-12">
+      <div v-scroll-reveal="{ delay: 300 }" class="col-sm-10 col-12">
         <h2 class="_cl-primary-dark _fw-bold _fs-4-sm _fs-5 _tal-ct _mgbt-48px">
           We are a member of the world’s largest and most powerful network of
           independent freight forwarders, WCA – Leading the World in Logistics
           Partnering
         </h2>
       </div>
-      <div class="col-sm-3 col-6 _dp-f _fdrt-cl _alit-ct">
+      <div
+        v-scroll-reveal="{ delay: 500 }"
+        class="col-sm-3 col-6 _dp-f _fdrt-cl _alit-ct"
+      >
         <a href="http://www.wcafirst.com/" target="_blank">
           <img
             src="../../assets/images/green.png"
@@ -100,7 +115,10 @@
           />
         </a>
       </div>
-      <div class="col-sm-3 col-6 _dp-f _fdrt-cl _alit-ct">
+      <div
+        v-scroll-reveal="{ delay: 700 }"
+        class="col-sm-3 col-6 _dp-f _fdrt-cl _alit-ct"
+      >
         <a href="https://www.wcaadvancedprofessionals.com/" target="_blank">
           <img
             src="../../assets/images/orange.png"
@@ -109,12 +127,18 @@
           />
         </a>
       </div>
-      <div class="col-sm-3 col-6 _dp-f _fdrt-cl _alit-ct _mgt-0px-sm _mgt-24px">
+      <div
+        v-scroll-reveal="{ delay: 900 }"
+        class="col-sm-3 col-6 _dp-f _fdrt-cl _alit-ct _mgt-0px-sm _mgt-24px"
+      >
         <a href="https://www.wcachinaglobal.com/" target="_blank">
           <img src="../../assets/images/red.png" class="wca-icon _f-1" alt="" />
         </a>
       </div>
-      <div class="col-sm-3 col-6 _dp-f _fdrt-cl _alit-ct _mgt-0px-sm _mgt-24px">
+      <div
+        v-scroll-reveal="{ delay: 1100 }"
+        class="col-sm-3 col-6 _dp-f _fdrt-cl _alit-ct _mgt-0px-sm _mgt-24px"
+      >
         <a href="https://www.wcainterglobal.com/" target="_blank">
           <img
             src="../../assets/images/purple.png"

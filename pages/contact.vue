@@ -2,18 +2,25 @@
   <section>
     <div class="container _mgv-64px-sm _mgv-32px">
       <div class="row _mgbt-24px">
-        <div class="col-12 _dp-b-sm _dp-f _fdrt-cl _alit-ct">
+        <div
+          class="col-12 _dp-b-sm _dp-f _fdrt-cl _alit-ct"
+          v-scroll-reveal="{ delay: 300, origin: 'left', distance: '120px' }"
+        >
           <h1 class="_cl-dark _fw-bold">Contact Us</h1>
           <div class="_bgcl-primary _w-64px _mgt-8px _h-4px"></div>
         </div>
       </div>
-      <a href="#" v-scroll-to="'#element'">Scroll to #element</a>
-
       <div class="row _alit-ct _jtfct-fst-sm _jtfct-ct">
-        <div class="col-sm-6 col-10">
+        <div
+          class="col-sm-6 col-10"
+          v-scroll-reveal="{ delay: 500, origin: 'left', distance: '120px' }"
+        >
           <img src="../assets/images/contact.jpg" class="_w-100pct" alt="" />
         </div>
-        <div class="col-sm-6 _pdl-64px-sm">
+        <div
+          class="col-sm-6 _pdl-64px-sm"
+          v-scroll-reveal="{ delay: 800, origin: 'right', distance: '120px' }"
+        >
           <h4
             class="_cl-dark _mgt-24px-sm _mgt-32px _tal-l-sm _tal-ct _lh-150pct _fw-bold _fs-5 _fs-4-sm"
           >
@@ -66,7 +73,7 @@
       </div>
     </div>
     <!-- MAP -->
-    <div class=" force-full-width _dp-f _jtfct-ct _alit-ct">
+    <div v-scroll-reveal class=" force-full-width _dp-f _jtfct-ct _alit-ct">
       <iframe
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7751.821758752916!2d100.54502353488772!3d13.723845199999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e2994e7263debf%3A0xfec5a61a0865ac05!2z4Lil4Li44Lih4Lie4Li04LiZ4Li14LiX4Liy4Lin4LmA4Lin4Lit4Lij4LmMIChMdW1waW5pIFRvd2VyKQ!5e0!3m2!1sen!2sth!4v1600453133039!5m2!1sen!2sth"
         class="_w-100vw"
@@ -81,6 +88,7 @@
     <div class="container">
       <div class="row _mgv-64px-sm _mgv-32px">
         <div
+          v-scroll-reveal="{ delay: 300 }"
           class="col-sm-6 _dp-f _fdrt-cl  _alit-ct _alit-fst-sm _tal-ct _tal-l-sm _jtfct-spbtw _mgbt-0px-sm _mgbt-48px"
         >
           <div id="head-office">
@@ -105,6 +113,7 @@
           </a>
         </div>
         <div
+          v-scroll-reveal="{ delay: 500 }"
           class="col-sm-6 _dp-f _fdrt-cl  _alit-ct _alit-fst-sm _tal-ct _tal-l-sm _jtfct-spbtw"
         >
           <div id="laem-chabang">
@@ -114,9 +123,6 @@
             <h5 class="_cl-dark _lh-150pct _mgt-16px">
               189/38 Moo. 9 T. Thungsukla Amphoe Sriracha 20230
             </h5>
-          </div>
-          <div id="element">
-            Hi. I'm #element.
           </div>
           <a
             href="https://goo.gl/maps/2moA8zo58iR8SvLU6"
