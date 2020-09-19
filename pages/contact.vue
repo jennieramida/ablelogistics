@@ -7,6 +7,8 @@
           <div class="_bgcl-primary _w-64px _mgt-8px _h-4px"></div>
         </div>
       </div>
+      <a href="#" v-scroll-to="'#element'">Scroll to #element</a>
+
       <div class="row _alit-ct _jtfct-fst-sm _jtfct-ct">
         <div class="col-sm-6 col-10">
           <img src="../assets/images/contact.jpg" class="_w-100pct" alt="" />
@@ -81,7 +83,7 @@
         <div
           class="col-sm-6 _dp-f _fdrt-cl  _alit-ct _alit-fst-sm _tal-ct _tal-l-sm _jtfct-spbtw _mgbt-0px-sm _mgbt-48px"
         >
-          <div>
+          <div id="head-office">
             <h4 class="_cl-primary-dark _fw-bold">
               Head office (Bangkok)
             </h4>
@@ -105,13 +107,16 @@
         <div
           class="col-sm-6 _dp-f _fdrt-cl  _alit-ct _alit-fst-sm _tal-ct _tal-l-sm _jtfct-spbtw"
         >
-          <div>
+          <div id="laem-chabang">
             <h4 class="_cl-primary-dark _fw-bold">
               Palm Garden Villa (Laem Chabang)
             </h4>
             <h5 class="_cl-dark _lh-150pct _mgt-16px">
               189/38 Moo. 9 T. Thungsukla Amphoe Sriracha 20230
             </h5>
+          </div>
+          <div id="element">
+            Hi. I'm #element.
           </div>
           <a
             href="https://goo.gl/maps/2moA8zo58iR8SvLU6"

@@ -55,6 +55,19 @@
               </div>
             </div>
             <div v-if="menu.title === 'Contact Us'">
+              <nuxt-link v-scroll-to="'#head-office'" to="/contact#head-office">
+                <h6 class="_cl-white _mgt-8px  _fs-7">
+                  Head Office (Bangkok)
+                </h6>
+              </nuxt-link>
+              <nuxt-link
+                v-scroll-to="'#laem-chabang'"
+                to="/contact#laem-chabang"
+              >
+                <h6 class="_cl-white _mgt-8px  _fs-7">
+                  Laem Chabang Office
+                </h6>
+              </nuxt-link>
               <a class="_cl-white" href="mailto:able@able-logistics.co.th">
                 <h6 class="_cl-primary _mgt-8px  _fs-7">
                   ✉️ able@able-logistics.co.th
@@ -110,11 +123,7 @@ export default {
       },
       {
         title: 'Contact Us',
-        path: '/contact',
-        subMenu: [
-          { title: 'Head Office (Bangkok)', path: '/contact#bkk' },
-          { title: 'Laem Chabang Office', path: '/contact#lcb' }
-        ]
+        path: '/contact'
       }
     ]
   })

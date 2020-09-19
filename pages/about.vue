@@ -16,12 +16,12 @@
           </h4>
         </div>
       </div>
-      <div class="row _bdtw-1px _bdcl-primary _alit-ct">
+      <div class="row _bdtw-1px _bdcl-primary _alit-ct" id="company">
         <!-- 1 -->
         <div class="col-sm-6 _mgt-64px-sm _pdt-32px">
           <img src="../assets/images/ab3.jpg" class="_w-100pct" alt="" />
         </div>
-        <div class="col-sm-6 _mgt-64px-sm _pdt-32px">
+        <div class="col-sm-6 _mgt-64px-sm _pdt-32px _pdl-48px-sm">
           <h6 class="_ttf-upc _mgbt-12px _fw-bold _cl-primary-medium">
             ABOUT US
           </h6>
@@ -35,7 +35,7 @@
         </div>
       </div>
       <!-- 2 -->
-      <div class="row">
+      <div class="row  _alit-ct" id="story">
         <div class="col-sm-6 _mgt-64px-sm _pdt-32px">
           <h6 class="_ttf-upc _mgbt-12px _fw-bold _cl-primary-medium">
             Where it all begins
@@ -53,16 +53,16 @@
           <img src="../assets/images/ab2.jpg" class="_w-100pct" alt="" />
         </div>
       </div>
-      <div class="row">
+      <div class="row  _alit-ct" id="aim">
         <!-- 3 -->
         <div class="col-sm-6 _mgt-64px-sm _pdt-32px">
           <img src="../assets/images/ab4.jpg" class="_w-100pct" alt="" />
         </div>
-        <div class="col-sm-6 _mgt-64px-sm _pdt-32px">
+        <div class="col-sm-6 _mgt-64px-sm _pdt-32px  _pdl-48px-sm">
           <h6 class="_ttf-upc _mgbt-12px _fw-bold _cl-primary-medium">
             Our Aim
           </h6>
-          <h5 class="_lh-125pct _cl-dark _pdr-64px-sm">
+          <h5 class="_lh-125pct _cl-dark _pdr-64px-sm ">
             To be the leader in the Freight Forwarding business and achieve
             customer positive sentiment by our full range of logistics services.
             Logistics are clearly created to provide convenience but by using
