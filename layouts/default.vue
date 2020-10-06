@@ -1,7 +1,7 @@
 <template>
   <div>
     <Header />
-    <nuxt />
+    <nuxt class="_ovfy-hd" />
     <Footer />
   </div>
 </template>

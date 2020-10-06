@@ -59,14 +59,23 @@ button {
 }
 
 // Color
-._cl-primary-very-light {
-  color: $primary-very-light;
+._cl-primary-alpha {
+  color: $primary-alpha;
 }
-._bgcl-primary-very-light {
-  background-color: $primary-very-light;
+._bgcl-primary-alpha {
+  background-color: $primary-alpha;
 }
-._bdcl-primary-very-light {
-  border-color: $primary-very-light;
+._bdcl-primary-alpha {
+  border-color: $primary-alpha;
+}
+._cl-primary-light {
+  color: $primary-light;
+}
+._bgcl-primary-light {
+  background-color: $primary-light;
+}
+._bdcl-primary-light {
+  border-color: $primary-light;
 }
 ._cl-primary {
   color: $primary;

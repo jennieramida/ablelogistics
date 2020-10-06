@@ -10,7 +10,7 @@
         </h1>
         <div
           v-scroll-reveal="{ delay: 500 }"
-          class="_bdtw-2px _bdcl-primary-very-light _pst-rlt line _mgbt-24px"
+          class="_bdtw-2px _bdcl-primary-alpha _pst-rlt line _mgbt-24px"
         >
           <!-- Star -->
           <div class="star">
@@ -27,7 +27,7 @@
               xml:space="preserve"
             >
               <polygon
-                fill="#aecbcf"
+                fill="#779ecb"
                 points="11.586,0 8.864,8.9 0,8.9 7.193,14.447 4.471,23.346 11.586,17.84 18.739,23.346 16.77,14.985 23.172,8.9 14.306,8.9"
               />
             </svg>

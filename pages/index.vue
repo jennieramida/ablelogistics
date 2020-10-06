@@ -5,9 +5,7 @@
       <Hero />
       <About class="_mgv-64px-sm _pdt-24px-sm _pdbt-0px-sm _pdv-48px" />
     </div>
-    <div
-      class="force-full-width _bgcl-primary-very-light _pdv-64px-sm _pdv-48px"
-    >
+    <div class="force-full-width _bgcl-primary-alpha _pdv-64px-sm _pdv-48px">
       <div class="container _pdv-24px-sm">
         <div class="row ">
           <div class="col-12 _dp-f _jtfct-spbtw-sm _jtfct-ct _alit-fe">

@@ -51,7 +51,7 @@
         </div>
       </div>
     </div>
-    <div class="_bgcl-primary-very-light">
+    <div class="_bgcl-primary-alpha">
       <div class="container _pdv-64px-sm _pdv-32px">
         <div class="row _jtfct-ct">
           <div

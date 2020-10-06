@@ -1,20 +1,25 @@
 <template>
   <section>
     <!-- Hero -->
-    <div class="container  _mgv-64px-sm _mgv-32px">
+    <div class="container _mgv-64px-sm _mgv-32px">
       <div
         class="row _mgbt-48px _dp-b-sm _dp-f _fdrt-cl _alit-ct"
         v-scroll-reveal="{ delay: 300, origin: 'left', distance: '120px' }"
       >
-        <div class="col-12 _dp-f _fdrt-cl _alit-ct _tal-l-sm _tal-ct">
-          <h1 class="_cl-dark _fw-bold">Customs Broker Service</h1>
-          <div class="_bgcl-primary _w-64px _mgt-8px _h-4px"></div>
-          <h5
-            class="_cl-dark _mgt-24px _lh-150pct _tal-ct _tal-l-sm _fs-5 _fs-4-sm"
+        <div class="col-12 _dp-f _fdrt-cl _alit-ct">
+          <h1
+            class="_cl-dark _fw-bold _ttf-upc _ltspc-2px _tal-ct _fs-1-sm _fs-2"
           >
-            Semper orci, urna eget dictum mauris. Arcu, lectus est nunc
-            lobortis<br class="_dp-b-sm _dp-n" />
-            vitae sem nunc aliquet. Placerat ipsum faucibus.
+            Customs Broker Service
+          </h1>
+          <div
+            class="_bgcl-primary _w-128px _mgt-32px-sm _mgt-8px _h-4px"
+          ></div>
+          <h5 class="_cl-dark _mgt-24px _lh-150pct _tal-ct _fs-5 _fs-4-sm">
+            Our in-house Customs consultants and customs specialist<br
+              class="_dp-b-sm _dp-n"
+            />
+            will guide you through Thai customs department.
           </h5>
         </div>
       </div>
@@ -51,7 +56,7 @@
         </div>
       </div>
     </div>
-    <div class="_bgcl-primary-very-light">
+    <div class="_bgcl-primary-alpha">
       <div class="container _pdv-64px-sm _pdv-32px">
         <div class="row _jtfct-ct">
           <div
