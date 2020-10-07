@@ -10,8 +10,8 @@
         <div class="row ">
           <div class="col-12 _dp-f _jtfct-spbtw-sm _jtfct-ct _alit-fe">
             <h1
-              class="_fw-bold _fs-2-sm _fs-3 "
               v-scroll-reveal="{ delay: 500, origin: 'left' }"
+              class="_fw-bold _fs-2-sm _fs-3 "
             >
               Our Services
             </h1>
@@ -24,7 +24,7 @@
             </n-link>
           </div>
         </div>
-        <div class="row">
+        <!-- <div class="row">
           <div v-scroll-reveal="{ delay: 500 }" class="col-sm-3 services-card">
             <n-link to="/services/sea-freight">
               <img
@@ -33,7 +33,7 @@
                 alt=""
               />
               <div class="_dp-f _jtfct-spbtw _alit-ct _cl-dark _mgt-12px">
-                <h4 class="_fw-bold">Sea freight</h4>
+                <h5 class="_mgv-12px _fw-bold">Sea freight</h5>
                 <div class="_mgt-4px">➞</div>
               </div>
             </n-link>
@@ -46,7 +46,7 @@
                 alt=""
               />
               <div class="_dp-f _jtfct-spbtw _alit-ct _cl-dark _mgt-12px">
-                <h4 class="_fw-bold">Air freight</h4>
+                <h5 class="_mgv-12px _fw-bold">Air freight</h5>
                 <div class="_mgt-4px">➞</div>
               </div>
             </n-link>
@@ -59,7 +59,7 @@
                 alt=""
               />
               <div class="_dp-f _jtfct-spbtw _alit-ct _cl-dark _mgt-12px">
-                <h4 class="_fw-bold">Rail Road Service</h4>
+                <h5 class="_mgv-12px _fw-bold">Rail Road Service</h5>
                 <div class="_mgt-4px">➞</div>
               </div>
             </n-link>
@@ -72,15 +72,79 @@
                 alt=""
               />
               <div class="_dp-f _jtfct-spbtw _alit-ct _cl-dark _mgt-12px">
-                <h4 class="_fw-bold">Customs Broker</h4>
+                <h5 class="_mgv-12px _fw-bold">Customs Broker</h5>
                 <div class="_mgt-4px">➞</div>
               </div>
             </n-link>
           </div>
+        </div> -->
+        <div class="row _mgt-24px">
+          <div
+            class="_pdv-48px _dp-f _fdrt-cl _alit-ct col-12 col-sm _bdcl-primary-medium _bdw-1px "
+          >
+            <img
+              src="../assets/images/s-1.png"
+              class="service-icon _mgbt-8px"
+              alt=""
+            />
+            <h5 class="_mgv-12px _fw-bold _cl-primary-dark">Sea Freight</h5>
+            <div class="_h-2px _w-64px _bgcl-primary-dark"></div>
+          </div>
+          <div
+            class="_pdv-48px _dp-f _fdrt-cl _alit-ct col-12 col-sm _bdcl-primary-medium _bdvw-1px _bdrw-1px"
+          >
+            <img
+              src="../assets/images/s-2.png"
+              class="service-icon _mgbt-8px"
+              alt=""
+            />
+            <h5 class="_mgv-12px _fw-bold _cl-primary-dark">Air Freight</h5>
+            <div class="_h-2px _w-64px _bgcl-primary-dark"></div>
+          </div>
+          <div
+            class="_pdv-48px _dp-f _fdrt-cl _alit-ct col-12 col-sm _bdcl-primary-medium _bdvw-1px _bdrw-1px"
+          >
+            <img
+              src="../assets/images/s-3.png"
+              class="service-icon _mgbt-8px"
+              alt=""
+            />
+            <h5 class="_mgv-12px _fw-bold _cl-primary-dark">
+              Rail Road Services
+            </h5>
+            <div class="_h-2px _w-64px _bgcl-primary-dark"></div>
+          </div>
+          <div
+            class="_pdv-48px _dp-f _fdrt-cl _alit-ct col-12 col-sm _bdcl-primary-medium _bdvw-1px _bdrw-1px"
+          >
+            <img
+              src="../assets/images/s-4.png"
+              class="service-icon _mgbt-8px"
+              alt=""
+            />
+            <h5 class="_mgv-12px _fw-bold _cl-primary-dark">
+              Customs Broker
+            </h5>
+            <div class="_h-2px _w-64px _bgcl-primary-dark"></div>
+          </div>
+          <div
+            class="_pdv-48px _dp-f _fdrt-cl _alit-ct col-12 col-sm _bdcl-primary-medium _bdvw-1px _bdrw-1px"
+            1
+          >
+            <img
+              src="../assets/images/s-5.png"
+              class="service-icon _mgbt-8px"
+              alt=""
+            />
+            <h5 class="_mgv-12px _fw-bold _cl-primary-dark">
+              In-transit Cargo
+            </h5>
+            <div class="_h-2px _w-64px _bgcl-primary-dark"></div>
+          </div>
         </div>
         <div class="row _dp-f _dp-n-sm _jtfct-ct _mgt-24px">
           <n-link to="/services" class="_mgt-64px _mgt-0px-sm">
-            <button class="_bgcl-primary _cl-dark">
+            <button class="_bgcl-primary  _cl-dark">
               <h6 class="_fs-6-sm _fs-5">Learn More</h6>
             </button>
           </n-link>
@@ -153,6 +217,14 @@ export default {
       color: $primary-dark !important;
     }
     transform: translateY(-10px);
+  }
+}
+
+.service-icon {
+  height: 60px;
+  object-fit: contain;
+  @media (max-width: $sm) {
+    height: 48px;
   }
 }
 </style>

@@ -8,7 +8,7 @@
       >
         <div class="col-12 _dp-f _fdrt-cl _alit-ct">
           <h1
-            class="_cl-dark _fw-bold _ttf-upc _ltspc-2px _tal-ct _fs-1-sm _fs-2"
+            class="_cl-dark _fw-bold _ttf-upc _ltspc-2px _tal-ct _fs-1-sm _fs-2d"
           >
             Customs Broker Service
           </h1>
