@@ -13,7 +13,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Karla', sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   margin: 0 !important;
 }
 p {
@@ -46,9 +46,9 @@ button {
   h4,
   h5,
   h6 {
-    font-weight: 700 !important;
+    font-weight: 400 !important;
   }
-  font-family: 'Karla', sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   transition: 0.2s $bezier;
   // &:hover {
   //   transform: scale(1.08);
@@ -163,7 +163,10 @@ button {
 
 // Other
 ._fw-bold {
-  font-weight: 700;
+  font-weight: 400;
+}
+._fw-light {
+  font-weight: 200;
 }
 ._bsd-default {
   box-shadow: 4px 4px 15px rgba(96, 174, 202, 0.1),

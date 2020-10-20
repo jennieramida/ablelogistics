@@ -2,31 +2,34 @@
   <section>
     <div class="container _mgv-64px-sm _mgv-32px">
       <div class="row _mgbt-48px">
-        <div class="col-12 _dp-f _fdrt-cl _alit-ct ">
-          <h1
-            v-scroll-reveal="{ delay: 300, origin: 'left', distance: '120px' }"
-            class="_cl-dark _fw-bold _tal-ct _ttf-upc _ltspc-2px"
-          >
-            About <br />
-            Able Logistics
-          </h1>
-          <div
-            v-scroll-reveal="{ delay: 300, origin: 'left', distance: '120px' }"
-            class="_bgcl-primary _w-128px _mgv-32px-sm _mgt-12px _mgbt-24px _h-4px"
-          ></div>
+        <div class="col-12 _dp-f _fdrt-cl _alit-ct _pst-rlt">
+          <div class="_pst-asl _t-0px _l-at _dp-f _fdrt-cl _alit-ct _zid-1">
+            <h1
+              v-scroll-reveal="{
+                delay: 300,
+                origin: 'left',
+                distance: '120px'
+              }"
+              class="_cl-dark _fw-bold _tal-ct  _ltspc-2px"
+            >
+              About <br />
+              Able Logistics
+            </h1>
+            <div class="_bgcl-primary _w-128px _mgt-12px _mgbt-24px _h-4px" />
+          </div>
           <img
             v-scroll-reveal="{ delay: 600 }"
-            class="_w-100pct"
-            src="../assets/images/heroabout.jpg"
-            alt=""
+            class="_w-100pct _mgt-48px _mgbt-0px-sm _mgbt-48px"
+            src="../assets/images/map.png"
           />
           <h4
             v-scroll-reveal
-            class="_cl-dark _mgt-48px _lh-150pct _tal-ct _fs-4-sm _fs-5"
+            class="_pst-asl _bt-0px _l-at _dp-f _fdrt-cl _alit-ct _zid-1 _cl-primary _mgt-48px _lh-150pct _tal-ct _fs-4-sm _fs-6 _ttf-upc _ltspc-2px"
           >
-            With over 20 years of long experience, we guarantee that
-            <br class="_dp-n _dp-b-sm" />our customers will meet their
-            satisfaction and service level.
+            With over 20 years of long experience,
+            <br class="_dp-n _dp-b-sm" />we guarantee that our customers will
+            meet <br class="_dp-n _dp-b-sm" />their satisfaction and service
+            level.
           </h4>
         </div>
       </div>
@@ -56,15 +59,15 @@
             <span class="_dp-b _fw-bold _cl-primary-medium">About us</span>
           </h3>
 
-          <h6
-            class="_lh-125pct _mgt-128px-sm _mgt-24px _tal-ct _cl-dark _pdr-64px-sm"
+          <h5
+            class="_lh-125pct _mgt-128px-sm _mgt-24px _tal-ct _tal-l-sm _fw-light _cl-dark _pdr-64px-sm"
           >
             Able logistics is an international freight forwarding company
             established on 2005 in Bangkok, Thailand. It is strategically
             located near both the Customs house and the Port of Authority of
             Thailand for an easy access to operate and provide the fastest
             services to all customers
-          </h6>
+          </h5>
         </div>
       </div>
       <!-- 2 -->
@@ -79,16 +82,18 @@
             <span class=" _dp-b _fw-light _cl-primary-dark">where it</span>
             <span class="_dp-b _fw-bold _cl-primary-medium">all begins</span>
           </h3>
-          <h6
-            class="_lh-125pct _cl-dark _pdh-64px-sm _tal-r-sm _mgt-128px-sm _mgt-24px _tal-ct"
+          <h5
+            class="_lh-125pct _cl-dark _pdr-64px-sm _tal-ct _tal-r-sm _fw-light _mgt-128px-sm _mgt-24px _tal-ct"
           >
-            We started off as a small business mainly to earn and build customer
-            loyalty through our passion and sincerity. Since then, our company
-            has grown rapidly. With a growing number of well-trained staffs, our
-            large customer based national wide and a strong worldwide network,
-            we ensure that we can render supreme service to our customers in all
-            respects.
-          </h6>
+            <i
+              >... We started off as a small business mainly to earn and build
+              customer loyalty through our passion and sincerity. Since then,
+              our company has grown rapidly. With a growing number of
+              well-trained staffs, our large customer based national wide and a
+              strong worldwide network, we ensure that we can render supreme
+              service to our customers in all respects.</i
+            >
+          </h5>
         </div>
         <div
           v-scroll-reveal="{ delay: 300, origin: 'right', distance: '120px' }"
@@ -123,15 +128,15 @@
             <span class=" _dp-b _fw-light _cl-primary-dark">understand</span>
             <span class="_dp-b _fw-bold _cl-primary-medium">Our Aim</span>
           </h3>
-          <h6
-            class="_lh-125pct _mgt-128px-sm _mgt-24px _tal-ct _cl-dark _pdr-64px-sm "
+          <h5
+            class="_lh-125pct _mgt-128px-sm _mgt-24px _tal-ct _tal-l-sm _fw-light _cl-dark _pdr-64px-sm "
           >
             To be the leader in the Freight Forwarding business and achieve
             customer positive sentiment by our full range of logistics services.
             Logistics are clearly created to provide convenience but by using
             our services, we assure that your business and cargoes are in safe
             hands.
-          </h6>
+          </h5>
         </div>
       </div>
     </div>

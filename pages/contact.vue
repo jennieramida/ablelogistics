@@ -3,26 +3,26 @@
     <div class="container _mgv-64px-sm _mgv-32px">
       <div class="row _mgbt-24px">
         <div
-          class="col-12 _dp-b-sm _dp-f _fdrt-cl _alit-ct"
           v-scroll-reveal="{ delay: 300, origin: 'left', distance: '120px' }"
+          class="col-12 _dp-f _fdrt-cl _alit-ct "
         >
           <h1 class="_cl-dark _fw-bold">Contact Us</h1>
           <div class="_bgcl-primary _w-64px _mgt-8px _h-4px"></div>
         </div>
       </div>
       <div class="row _alit-ct _jtfct-fst-sm _jtfct-ct">
-        <div
+        <!-- <div
           class="col-sm-6 col-10"
           v-scroll-reveal="{ delay: 500, origin: 'left', distance: '120px' }"
         >
           <img src="../assets/images/contact.jpg" class="_w-100pct" alt="" />
-        </div>
+        </div> -->
         <div
-          class="col-sm-6 _pdl-64px-sm"
           v-scroll-reveal="{ delay: 800, origin: 'right', distance: '120px' }"
+          class="col-12 _jtfct-ct _tal-ct"
         >
           <h4
-            class="_cl-dark _mgt-24px-sm _mgt-32px _tal-l  _lh-150pct _fw-bold _fs-5 _fs-4-sm"
+            class="_cl-primary _lh-150pct  _tal-ct _fs-4-sm _fs-6 _ttf-upc _ltspc-2px"
           >
             For further information or inquiries, <br class="_dp-b-sm _dp-n" />
             please feel free to contact us

@@ -9,14 +9,16 @@ export default {
    ** Headers of the page
    */
   head: {
-    title: 'Able Logistics | Bangkok Based international freight forwarding company.',
+    title:
+      'Able Logistics | Bangkok Based international freight forwarding company.',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       {
         hid: 'description',
         name: 'description',
-        content: 'Strategically located near both the Customs house and the Port of Authority of Thailand for an easy access to operate and provide the fastest services to all customers.'
+        content:
+          'Strategically located near both the Customs house and the Port of Authority of Thailand for an easy access to operate and provide the fastest services to all customers.'
       }
     ],
     link: [
@@ -24,7 +26,7 @@ export default {
       {
         rel: 'stylesheet',
         href:
-          'https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap'
+          'https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;400&display=swap'
       }
     ]
   },
@@ -47,8 +49,9 @@ export default {
    */
   plugins: [
     {
-      src: '@/plugins/index', ssr: false
-    },
+      src: '@/plugins/index',
+      ssr: false
+    }
   ],
 
   /*
@@ -58,8 +61,7 @@ export default {
     // Doc: https://bootstrap-vue.js.org/docs/
     'bootstrap-vue/nuxt',
     '@nuxtjs/style-resources',
-    'vue-scrollto/nuxt',
-
+    'vue-scrollto/nuxt'
   ],
 
   /*

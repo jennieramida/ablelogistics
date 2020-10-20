@@ -24,7 +24,7 @@
           </p>
         </div>
         <div class="col-md-8 col-sm-9 col-12 _dp-f-sm _dp-b _jtfct-spbtw">
-          <n-link to="/" v-scroll-reveal>
+          <n-link v-scroll-reveal to="/">
             <h5
               v-html="'Home'"
               class="_cl-primary _fw-bold _bdbtw-1px _bdbtw-0px-sm _pdbt-4px _dp-b-sm _dp-n"
@@ -107,10 +107,11 @@ export default {
         title: 'Our Services',
         path: '/services',
         subMenu: [
-          { title: 'Sea freight', path: '/services/sea-freight' },
-          { title: 'Air freight', path: '/services/air-freight' },
-          { title: 'Rail Road Service', path: '/services/rail-road' },
-          { title: 'Customs Broker', path: '/services/customs-broker' }
+          { title: 'Sea freight', path: '/services#sea-freight' },
+          { title: 'Air freight', path: '/services#air-freight' },
+          { title: 'Rail Road Service', path: '/services#rail-road' },
+          { title: 'Customs Broker', path: '/services/customs-broker' },
+          { title: 'In-Transit Cargo', path: '/services#in-transit' }
         ]
       },
       {
