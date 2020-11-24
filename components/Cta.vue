@@ -1,6 +1,6 @@
 <template>
   <div
-    :class="hasBorder ? '_bdtw-1px' : ''"
+    :class="{ '_bdtw-1px': hasBorder }"
     class="container _bdcl-primary _pdv-48px-sm _pdv-32px"
   >
     <div class="row _pdh-16px _alit-fe _jtfct-spbtw-sm _jtfct-ct">

@@ -1,31 +1,17 @@
 <template>
   <section>
     <div class="container _mgv-64px-sm _mgv-32px">
-      <div class="row _mgbt-24px">
+      <div class="row _jtfct-fst-sm _jtfct-ct">
         <div
           v-scroll-reveal="{ delay: 300, origin: 'left', distance: '120px' }"
-          class="col-12 _dp-f _fdrt-cl _alit-ct "
+          class="col-sm-6 _dp-f _fdrt-cl _alit-fst-sm _alit-ct "
         >
-          <h1 class="_cl-dark _fw-bold">Contact Us</h1>
+          <h1 class="_cl-dark _fw-bold _ttf-upc _ltspc-2px">Contact Us</h1>
           <div class="_bgcl-primary _w-64px _mgt-8px _h-4px"></div>
-        </div>
-      </div>
-      <div class="row _alit-ct _jtfct-fst-sm _jtfct-ct">
-        <!-- <div
-          class="col-sm-6 col-10"
-          v-scroll-reveal="{ delay: 500, origin: 'left', distance: '120px' }"
-        >
-          <img src="../assets/images/contact.jpg" class="_w-100pct" alt="" />
-        </div> -->
-        <div
-          v-scroll-reveal="{ delay: 800, origin: 'right', distance: '120px' }"
-          class="col-12 _jtfct-ct _tal-ct"
-        >
           <h4
-            class="_cl-primary _lh-150pct  _tal-ct _fs-4-sm _fs-6 _ttf-upc _ltspc-2px"
+            class="_cl-primary _lh-150pct _mgt-24px _tal-ct _tal-l-sm _fs-4-sm _fs-6 _mgr-48px-sm"
           >
-            For further information or inquiries, <br class="_dp-b-sm _dp-n" />
-            please feel free to contact us
+            For further information or inquiries, please feel free to contact us
           </h4>
           <a href="mailto:able@able-logistics.co.th"
             ><h5 class="_mgt-24px">
@@ -66,9 +52,68 @@
                 src="../assets/images/map.jpg"
                 class="_w-16px _mgbt-4px _mgr-8px"
               />
-              <span class="_udl-hover-primary-dark">Get Direction</span>
+              <span class="_udl-hover-primary-dark">
+                <b>Get Direction</b>
+              </span>
             </h5>
           </a>
+        </div>
+        <div class="col-sm-6 col-10 _mgt-32px _mgt-0px-sm">
+          <div
+            v-scroll-reveal="{ delay: 300 }"
+            class="_bgcl-white _bsd-default _pd-24px _bdrd-12px _dp-f _fdrt-cl _fdrt-r  _alit-ct _alit-fst-sm _tal-ct _tal-l-sm _jtfct-spbtw _mgbt-32px-sm _mgbt-24px"
+          >
+            <h4
+              id="head-office"
+              class="_cl-primary-dark _ltspc-1px _ttf-upc _fw-bold _fs-4-sm _fs-5"
+            >
+              Head office (Bangkok)
+            </h4>
+            <div class="_dp-f-sm _alit-fe">
+              <h5
+                class="_fs-5-sm _fs-6 _cl-dark _lh-150pct _mgt-16px _mgr-16px _fw-light"
+              >
+                1168/15 Zone B, Lumphini Tower, 12A Fl., Rama 4 Rd,
+                Thungmahamek, Sathorn, Bangkok 10120
+              </h5>
+              <a href="https://goo.gl/maps/Jzn9K4JBJvVVK9wG7" target="_blank">
+                <button
+                  class="_bgcl-primary-dark _fw-bold _cl-white _mgt-24px _mgt-0px-sm"
+                >
+                  <h6 class="_fs-6-sm _fs-5">
+                    Get Direction
+                  </h6>
+                </button>
+              </a>
+            </div>
+          </div>
+          <div
+            v-scroll-reveal="{ delay: 500 }"
+            class="_bgcl-white _bsd-default _pd-24px _bdrd-12px _dp-f _fdrt-cl  _alit-ct _alit-fst-sm _tal-ct _tal-l-sm _jtfct-spbtw"
+          >
+            <h4
+              id="laem-chabang"
+              class="_cl-primary-dark _ltspc-1px _ttf-upc _fw-bold _fs-4-sm _fs-5"
+            >
+              Palm Garden Villa (Laem Chabang)
+            </h4>
+            <div class="_dp-f-sm _alit-fe">
+              <h5
+                class="_fs-5-sm _fs-6 _cl-dark _lh-150pct _mgt-16px _mgr-16px _fw-light"
+              >
+                189/38 Moo. 9 T. Thungsukla Amphoe Sriracha 20230
+              </h5>
+              <a href="https://goo.gl/maps/2moA8zo58iR8SvLU6" target="_blank">
+                <button
+                  class="_bgcl-primary-dark _fw-bold _cl-white _mgt-24px _mgt-0px-sm"
+                >
+                  <h6 class="_fs-6-sm _fs-5">
+                    Get Direction
+                  </h6>
+                </button>
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -84,59 +129,6 @@
         aria-hidden="false"
         tabindex="0"
       ></iframe>
-    </div>
-    <div class="container">
-      <div class="row _mgv-64px-sm _mgv-32px">
-        <div
-          v-scroll-reveal="{ delay: 300 }"
-          class="col-sm-6 _dp-f _fdrt-cl  _alit-ct _alit-fst-sm _tal-ct _tal-l-sm _jtfct-spbtw _mgbt-0px-sm _mgbt-48px"
-        >
-          <div id="head-office">
-            <h4 class="_cl-primary-dark _fw-bold">
-              Head office (Bangkok)
-            </h4>
-            <h5 class="_cl-dark _lh-150pct _mgt-16px">
-              1168/15 Zone B, Lumphini Tower, 12A Fl., Rama 4 Rd, Thungmahamek,
-              Sathorn, Bangkok 10120
-            </h5>
-          </div>
-          <a
-            href="https://goo.gl/maps/Jzn9K4JBJvVVK9wG7"
-            target="_blank"
-            class="_mgt-24px"
-          >
-            <button class="_bgcl-primary-dark _fw-bold _cl-white">
-              <h6 class="_fs-6-sm _fs-5">
-                See on Google Maps
-              </h6>
-            </button>
-          </a>
-        </div>
-        <div
-          v-scroll-reveal="{ delay: 500 }"
-          class="col-sm-6 _dp-f _fdrt-cl  _alit-ct _alit-fst-sm _tal-ct _tal-l-sm _jtfct-spbtw"
-        >
-          <div id="laem-chabang">
-            <h4 class="_cl-primary-dark _fw-bold">
-              Palm Garden Villa (Laem Chabang)
-            </h4>
-            <h5 class="_cl-dark _lh-150pct _mgt-16px">
-              189/38 Moo. 9 T. Thungsukla Amphoe Sriracha 20230
-            </h5>
-          </div>
-          <a
-            href="https://goo.gl/maps/2moA8zo58iR8SvLU6"
-            target="_blank"
-            class="_mgt-24px"
-          >
-            <button class="_bgcl-primary-dark _fw-bold _cl-white">
-              <h6 class="_fs-6-sm _fs-5">
-                See on Google Maps
-              </h6>
-            </button>
-          </a>
-        </div>
-      </div>
     </div>
   </section>
 </template>
