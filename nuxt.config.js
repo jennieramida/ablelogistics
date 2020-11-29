@@ -26,7 +26,7 @@ export default {
       {
         rel: 'stylesheet',
         href:
-          'https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;400&display=swap'
+          'https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;400;600&display=swap'
       }
     ]
   },

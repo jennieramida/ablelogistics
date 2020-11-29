@@ -4,14 +4,15 @@
       <div class="row _jtfct-fst-sm _jtfct-ct">
         <div
           v-scroll-reveal="{ delay: 300, origin: 'left', distance: '120px' }"
-          class="col-sm-6 _dp-f _fdrt-cl _alit-fst-sm _alit-ct "
+          class="col-md-6 _dp-f _fdrt-cl _alit-fst-sm _alit-ct "
         >
-          <h1 class="_cl-dark _fw-bold _ttf-upc _ltspc-2px">Contact Us</h1>
+          <h1 class="_cl-dark _fw-bold _ttf-cptl _ltspc-2px">Contact Us</h1>
           <div class="_bgcl-primary _w-64px _mgt-8px _h-4px"></div>
           <h4
-            class="_cl-primary _lh-150pct _mgt-24px _tal-ct _tal-l-sm _fs-4-sm _fs-6 _mgr-48px-sm"
+            class="_cl-primary _lh-150pct  _fs-5-sm _fs-6 _ttf-upc _ltspc-2px _tal-ct _tal-l-sm _mgt-24px"
           >
-            For further information or inquiries, please feel free to contact us
+            For further information or inquiries, <br />please feel free to
+            contact us
           </h4>
           <a href="mailto:able@able-logistics.co.th"
             ><h5 class="_mgt-24px">

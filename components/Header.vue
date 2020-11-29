@@ -27,13 +27,13 @@
           <div class="_dp-f _alit-ct  _jtfct-fe ">
             <button
               :class="{ '-open': $store.state.menu.isShowingMenu }"
-              class="_dp-f _alit-ct _jtfct-fe _pd-0px _zid-1 _bgcl-tpr _bdcl-tpr hamburger-container _w-32px _h-32px "
               @click="
                 $store.commit(
                   'menu/SET_MOBILE_MENU',
                   !$store.state.menu.isShowingMenu
                 )
               "
+              class="_dp-f _alit-ct _jtfct-fe _pd-0px _zid-1 _bgcl-tpr _bdcl-tpr hamburger-container _w-32px _h-32px "
             >
               <div class="hamburger-btn" />
             </button>
@@ -57,12 +57,12 @@ export default {
         path: '/'
       },
       {
-        title: 'Our Services',
-        path: '/services'
-      },
-      {
         title: 'About Us',
         path: '/about'
+      },
+      {
+        title: 'Our Services',
+        path: '/services'
       },
       {
         title: 'Contact',

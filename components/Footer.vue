@@ -104,6 +104,15 @@ export default {
   data: () => ({
     menu: [
       {
+        title: 'About Us',
+        path: '/about',
+        subMenu: [
+          { title: 'Our Company', path: '/about#company' },
+          { title: 'Able Stories', path: '/about#story' },
+          { title: 'Our Aim', path: '/about#aim' }
+        ]
+      },
+      {
         title: 'Our Services',
         path: '/services',
         subMenu: [
@@ -112,15 +121,6 @@ export default {
           { title: 'Rail Road Service', path: '/services#rail-road' },
           { title: 'Customs Broker', path: '/services/customs-broker' },
           { title: 'In-Transit Cargo', path: '/services#in-transit' }
-        ]
-      },
-      {
-        title: 'About Us',
-        path: '/about',
-        subMenu: [
-          { title: 'Our Company', path: '/about#company' },
-          { title: 'Able Stories', path: '/about#story' },
-          { title: 'Our Aim', path: '/about#aim' }
         ]
       },
       {

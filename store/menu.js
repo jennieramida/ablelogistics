@@ -5,12 +5,12 @@ export const state = () => ({
       path: '/'
     },
     {
-      title: 'Our Services',
-      path: '/services'
-    },
-    {
       title: 'About Us',
       path: '/about'
+    },
+    {
+      title: 'Our Services',
+      path: '/services'
     },
     {
       title: 'Contact',
