@@ -75,10 +75,10 @@ export default {
 
 <style lang="scss" scoped>
 .branding {
-  height: 80px;
+  height: 90px;
   object-fit: contain;
   @media (max-width: $sm) {
-    height: 55px;
+    height: 64px;
   }
 }
 

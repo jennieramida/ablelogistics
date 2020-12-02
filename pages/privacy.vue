@@ -2,8 +2,8 @@
   <div class="container _mgv-64px-sm _mgv-32px">
     <div class="row _mgbt-24px">
       <div
-        class="col-12 _dp-b-sm _dp-f _fdrt-cl _alit-ct"
         v-scroll-reveal="{ delay: 300, origin: 'left', distance: '120px' }"
+        class="col-12 _dp-b-sm _dp-f _fdrt-cl _alit-ct"
       >
         <h1 class="_cl-dark _fw-bold">Privacy Policy</h1>
         <div class="_bgcl-primary _w-64px _mgt-8px _h-4px"></div>

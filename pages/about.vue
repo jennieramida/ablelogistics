@@ -1,7 +1,7 @@
 <template>
   <section>
     <div class="container">
-      <div class="row _mgt-64px-sm _pdt-32px _mgbt-32px-sm  _jtfct-ct">
+      <div class="row _mgt-32px-sm _pdt-32px _mgbt-32px-sm  _jtfct-ct">
         <div class="col-12 _mgbt-64px-sm _mgbt-32px">
           <h1
             v-scroll-reveal="{
@@ -23,6 +23,9 @@
           </h4>
         </div>
         <div
+          v-scroll-reveal="{
+            delay: 200
+          }"
           class="col-12 _dp-b-lg _dp-n col-lg-3 _h-at  _bdlw-1px-md _bdrw-1px-md _bdcl-primary-alpha col-md-4"
         >
           <img
@@ -32,6 +35,9 @@
           />
         </div>
         <div
+          v-scroll-reveal="{
+            delay: 400
+          }"
           class="col-12 col-lg-3  col-md-4 _mgbt-64px _bdrw-1px-md _bdcl-primary-alpha _mgbt-0px-md"
         >
           <img
@@ -55,6 +61,9 @@
           </h6>
         </div>
         <div
+          v-scroll-reveal="{
+            delay: 600
+          }"
           class="col-12 col-lg-3  col-md-4 _mgbt-64px _bdrw-1px-md _bdcl-primary-alpha _mgbt-0px-md "
         >
           <img
@@ -79,6 +88,9 @@
           </h6>
         </div>
         <div
+          v-scroll-reveal="{
+            delay: 800
+          }"
           class="col-12 col-lg-3  col-md-4 _mgbt-64px _bdrw-1px-md _bdcl-primary-alpha _mgbt-0px-md"
         >
           <img

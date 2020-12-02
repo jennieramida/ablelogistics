@@ -6,7 +6,7 @@
           <n-link to="/">
             <img
               src="../assets/images/ablelogistic-invert.jpg"
-              class="branding _h-64px "
+              class="branding "
               alt=""
             />
           </n-link>
@@ -135,6 +135,7 @@ export default {
 <style lang="scss" scoped>
 .branding {
   object-fit: contain;
+  height: 80px;
 }
 .footer-link {
   color: white !important;

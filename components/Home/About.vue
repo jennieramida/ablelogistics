@@ -4,7 +4,7 @@
       <div class="col-sm-12 _tal-ct _mgbt-48px _dp-f _fdrt-cl _alit-ct">
         <h1
           v-scroll-reveal="{ delay: 300 }"
-          class="_cl-primary-dark _fw-bold _fs-2-sm _fs-3   _pdbt-12px"
+          class="_cl-primary-dark _fw-bold _fs-1-sm _fs-2   _pdbt-12px"
         >
           Able Logistics
         </h1>
