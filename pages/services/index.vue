@@ -1,7 +1,7 @@
 <template>
   <section class="wrapper">
     <div class="container">
-      <div class="row _mgt-32px-sm _pdt-32px _mgbt-32px-sm  _jtfct-ct">
+      <div class="row _mgt-32px-sm _pdt-32px _jtfct-ct">
         <div class="col-12 _mgbt-64px-sm _mgbt-32px">
           <h1
             v-scroll-reveal="{
@@ -16,7 +16,7 @@
           <div class="_bgcl-primary _w-128px _mgt-12px _mgbt-24px _h-4px" />
           <h4
             v-scroll-reveal
-            class="_cl-primary _lh-150pct  _fs-5-sm _fs-6 _ttf-upc _ltspc-2px"
+            class="_cl-primary-dark _lh-150pct  _fs-5-sm _fs-6 _ttf-upc _ltspc-2px"
           >
             Able logistics Is currently serving a wide range of business.<br />
             Our activities are covering within the scope as follows:
@@ -26,29 +26,106 @@
       <!-- Row 1 -->
       <div class="row _mgbt-64px _mgbt-0px-md">
         <div class="col-12 col-md-4">
-          <ServiceCard order="01" title="Sea Freight" image="sea-freight.jpg" />
+          <div class="_bgcl-white _dp-f _bdrd-4px _bsd-default">
+            <div class="_f-2 _pdv-64px-sm _pdl-24px _dp-f _fdrt-cl _jtfct-ct">
+              <h3 v-html="'01'" class="_cl-primary-dark _fw-bold" />
+              <h2
+                v-html="'Sea Freight'"
+                class="_cl-primary _fw-bold _mgt-4px"
+              />
+            </div>
+            <div class="_f-1">
+              <img
+                src="../../assets/images/services/sea-freight.jpg"
+                class="_w-100pct _bdbtrrd-4px _bdtrrd-4px _ojf-cv _h-100pct"
+                alt=""
+              />
+            </div>
+          </div>
         </div>
         <div class="_dp-b-sm _dp-n col-4" />
         <div class="col-12 col-md-4">
-          <ServiceCard order="02" title="Air Freight" image="air-freight.jpg" />
+          <div class="_bgcl-white _dp-f _bdrd-4px _bsd-default">
+            <div class="_f-2 _pdv-64px-sm _pdl-24px _dp-f _fdrt-cl _jtfct-ct">
+              <h3 v-html="'02'" class="_cl-primary-dark _fw-bold" />
+              <h2
+                v-html="'Air Freight'"
+                class="_cl-primary _fw-bold _mgt-4px"
+              />
+            </div>
+            <div class="_f-1">
+              <img
+                src="../../assets/images/services/air-freight.jpg"
+                class="_w-100pct _bdbtrrd-4px _bdtrrd-4px _ojf-cv _h-100pct"
+                alt=""
+              />
+            </div>
+          </div>
         </div>
       </div>
       <!-- Row 2 -->
       <div class="row _mgbt-64px _mgbt-0px-md">
         <div class="_dp-b-sm _dp-n col-4" />
         <div class="col-12 col-md-4">
-          <ServiceCard order="03" title="Rail Road Services" image="" />
+          <div class="_bgcl-white _dp-f _bdrd-4px _bsd-default">
+            <div
+              class="_f-2 _pdv-48px-sm _pdr-12px _pdl-24px _dp-f _fdrt-cl _jtfct-ct"
+            >
+              <h3 v-html="'03'" class="_cl-primary-dark _fw-bold" />
+              <h2
+                v-html="'Rail Road Services'"
+                class="_cl-primary _fw-bold _mgt-4px"
+              />
+            </div>
+            <div class="_f-1">
+              <img
+                src="../../assets/images/services/rail-road.jpg"
+                class="_w-100pct _bdbtrrd-4px _bdtrrd-4px _ojf-cv _h-100pct"
+                alt=""
+              />
+            </div>
+          </div>
         </div>
         <div class="_dp-b-sm _dp-n col-4" />
       </div>
       <!-- Row 3 -->
       <div class="row _mgbt-64px _mgbt-0px-md">
         <div class="col-12 col-md-4">
-          <ServiceCard order="04" title="Customs Broker" image="" />
+          <div class="_bgcl-white _dp-f _bdrd-4px _bsd-default">
+            <div class="_f-2 _pdv-64px-sm _pdl-24px _dp-f _fdrt-cl _jtfct-ct">
+              <h3 v-html="'04'" class="_cl-primary-dark _fw-bold" />
+              <h2
+                v-html="'Customs Broker'"
+                class="_cl-primary _fw-bold _mgt-4px"
+              />
+            </div>
+            <div class="_f-1">
+              <img
+                src="../../assets/images/services/customs-broker.jpg"
+                class="_w-100pct _bdbtrrd-4px _bdtrrd-4px _ojf-cv _h-100pct"
+                alt=""
+              />
+            </div>
+          </div>
         </div>
         <div class="_dp-b-sm _dp-n col-4" />
         <div class="col-12 col-md-4">
-          <ServiceCard order="05" title="In-transit Cargo" image="" />
+          <div class="_bgcl-white _dp-f _bdrd-4px _bsd-default">
+            <div class="_f-2 _pdv-64px-sm _pdl-24px _dp-f _fdrt-cl _jtfct-ct">
+              <h3 v-html="'05'" class="_cl-primary-dark _fw-bold" />
+              <h2
+                v-html="'In-transit Cargo'"
+                class="_cl-primary _fw-bold _mgt-4px"
+              />
+            </div>
+            <div class="_f-1">
+              <img
+                src="../../assets/images/services/in-transit.jpg"
+                class="_w-100pct _bdbtrrd-4px _bdtrrd-4px _ojf-cv _h-100pct"
+                alt=""
+              />
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -279,9 +356,9 @@
 
 <script>
 import Cta from '../../components/Cta'
-import ServiceCard from '../../components/ServiceCard'
+
 export default {
-  components: { Cta, ServiceCard },
+  components: { Cta },
   data: () => ({
     services: [
       {
@@ -344,7 +421,7 @@ export default {
 .wrapper {
   position: relative;
   z-index: 2;
-  background: rgb(241, 248, 255);
+  background: rgb(242, 248, 255);
   &::before {
     content: '';
     position: absolute;
@@ -356,7 +433,7 @@ export default {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100vw;
-    opacity: 0.2;
+    opacity: 0.18;
   }
 }
 </style>

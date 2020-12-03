@@ -6,7 +6,7 @@
     </div>
     <div class="_f-1">
       <img
-        :src="`/assets/images/services/sea-freight.jpg`"
+        :src="getImage(title)"
         class="_w-100pct _bdbtrrd-4px _bdtrrd-4px _ojf-cv "
         alt=""
       />
@@ -29,6 +29,20 @@ export default {
     title: {
       type: String,
       default: 'Sea Freight'
+    }
+  },
+  methods: {
+    getImage(title) {
+      if (title === 'Sea Freight')
+        return './../assets/images/services/sea-freight.jpg'
+      if (title === 'Air Freight')
+        return './../assets/images/services/air-freight.jpg'
+      if (title === 'Rail Road Services')
+        return './../assets/images/services/rail-road.jpg'
+      if (title === 'Customs Broker')
+        return './../assets/images/services/customs-broker.jpg'
+      if (title === 'In-transit Cargo')
+        return './../assets/images/services/in-transit.jpg'
     }
   }
 }
