@@ -105,7 +105,7 @@
           Partnering
         </h2>
       </div>
-      <div
+      <!-- <div
         v-scroll-reveal="{ delay: 500 }"
         class="col-sm-3 col-6 _dp-f _fdrt-cl _alit-ct"
       >
@@ -136,10 +136,10 @@
         <a href="https://www.wcachinaglobal.com/" target="_blank">
           <img src="../../assets/images/red.png" class="wca-icon _f-1" alt="" />
         </a>
-      </div>
+      </div> -->
       <div
-        v-scroll-reveal="{ delay: 1100 }"
-        class="col-sm-3 col-6 _dp-f _fdrt-cl _alit-ct _mgt-0px-sm _mgt-24px"
+        v-scroll-reveal="{ delay: 400 }"
+        class="col-sm-3 col-6 _dp-f _fdrt-cl _alit-ct "
       >
         <a href="https://www.wcainterglobal.com/" target="_blank">
           <img

@@ -12,10 +12,10 @@
             }"
             class="_cl-dark _fw-bold _ttf-cptl _ltspc-2px _fs-1-sm _fs-2 _tal-ct _tal-l-sm"
           >
-            Customs Broker Service
+            In-transit Cargo
           </h1>
           <div class="_bgcl-primary _w-128px _mgt-12px _mgbt-24px _h-4px" />
-          <h4
+          <!-- <h4
             v-scroll-reveal
             class="_cl-primary-dark _lh-150pct  _fs-5-sm _fs-6 _ttf-upc _ltspc-2px _tal-ct _tal-l-sm"
           >
@@ -23,7 +23,7 @@
               class="_dp-b-sm _dp-n"
             />
             will guide you through Thai customs department.
-          </h4>
+          </h4> -->
         </div>
       </div>
       <div class="row _alit-ct">
@@ -32,7 +32,7 @@
           class="col-sm-6"
         >
           <img
-            src="../../assets/images/services/customs-broker.jpg"
+            src="../../assets/images/services/in-transit.jpg"
             class="_w-100pct _bdrd-4px _bsd-default _ojf-cv"
             alt=""
           />
@@ -44,19 +44,7 @@
           <h4
             class="_cl-dark _mgt-24px _lh-150pct _fw-light _fs-5 _fs-4-sm _tal-l-md _tal-ct"
           >
-            <ul>
-              <li>Packing/Crating</li>
-              <li>
-                Customs Clearance, bonded cargoes and other customs related
-                matters
-              </li>
-              <li>Insurance Services</li>
-              <li>
-                Export Procedures and documentation: Form A, Form D and
-                Certificate of Origin
-              </li>
-              <li>Consultation on transport and logistics projects</li>
-            </ul>
+            A cross border trucking service to Laos, Cambodia and Malaysia
           </h4>
         </div>
       </div>

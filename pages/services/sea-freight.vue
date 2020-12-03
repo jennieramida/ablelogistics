@@ -12,17 +12,16 @@
             }"
             class="_cl-dark _fw-bold _ttf-cptl _ltspc-2px _fs-1-sm _fs-2 _tal-ct _tal-l-sm"
           >
-            Customs Broker Service
+            Sea Freight
           </h1>
           <div class="_bgcl-primary _w-128px _mgt-12px _mgbt-24px _h-4px" />
           <h4
             v-scroll-reveal
             class="_cl-primary-dark _lh-150pct  _fs-5-sm _fs-6 _ttf-upc _ltspc-2px _tal-ct _tal-l-sm"
           >
-            Our in-house Customs consultants and customs specialist<br
-              class="_dp-b-sm _dp-n"
-            />
-            will guide you through Thai customs department.
+            We Able logistics, has the capability and experience
+            <br class="_dp-b-sm _dp-n" />
+            to help you navigate every step, from shore to ship and beyond.
           </h4>
         </div>
       </div>
@@ -32,7 +31,7 @@
           class="col-sm-6"
         >
           <img
-            src="../../assets/images/services/customs-broker.jpg"
+            src="../../assets/images/services/sea-freight.jpg"
             class="_w-100pct _bdrd-4px _bsd-default _ojf-cv"
             alt=""
           />
@@ -44,19 +43,9 @@
           <h4
             class="_cl-dark _mgt-24px _lh-150pct _fw-light _fs-5 _fs-4-sm _tal-l-md _tal-ct"
           >
-            <ul>
-              <li>Packing/Crating</li>
-              <li>
-                Customs Clearance, bonded cargoes and other customs related
-                matters
-              </li>
-              <li>Insurance Services</li>
-              <li>
-                Export Procedures and documentation: Form A, Form D and
-                Certificate of Origin
-              </li>
-              <li>Consultation on transport and logistics projects</li>
-            </ul>
+            With links to all TH ports and our network partners links to most
+            international ports, we are able to provide both import and export
+            clearance to all forms of Sea freight.
           </h4>
         </div>
       </div>
@@ -106,6 +95,7 @@ export default {
     background-color: rgba($primary-light, 0.5);
   }
 }
+
 .wrapper {
   position: relative;
   z-index: 2;
