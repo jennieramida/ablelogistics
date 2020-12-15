@@ -2,14 +2,16 @@
   <section>
     <div class="container">
       <div class="row _mgt-32px-sm _pdt-32px _mgbt-32px-sm  _jtfct-ct">
-        <div class="col-12 _mgbt-64px-sm _mgbt-32px">
+        <div
+          class="col-12 _mgbt-64px-sm _mgbt-32px _dp-f _fdrt-cl _alit-ct _tal-ct"
+        >
           <h1
             v-scroll-reveal="{
               delay: 300,
               origin: 'left',
               distance: '120px'
             }"
-            class="_cl-dark _fw-bold _ttf-cptl _ltspc-2px"
+            class="_cl-dark _fw-bold _ttf-cptl _ltspc-8px"
           >
             About Able Logistics
           </h1>

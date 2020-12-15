@@ -4,14 +4,14 @@
       <div
         class="row _mgt-32px-sm _pdt-32px _jtfct-ct _mgbt-32px _mgbt-64px-md"
       >
-        <div class="col-12">
+        <div class="col-12 _dp-f _fdrt-cl _alit-ct _tal-ct">
           <h1
             v-scroll-reveal="{
               delay: 300,
               origin: 'left',
               distance: '120px'
             }"
-            class="_cl-dark _fw-bold _ttf-cptl _ltspc-2px"
+            class="_cl-dark _fw-bold _ttf-cptl _ltspc-8px"
           >
             Our Services
           </h1>

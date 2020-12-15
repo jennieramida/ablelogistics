@@ -6,10 +6,10 @@
           v-scroll-reveal="{ delay: 300, origin: 'left', distance: '120px' }"
           class="col-md-6 _dp-f _fdrt-cl _alit-fst-sm _alit-ct "
         >
-          <h1 class="_cl-dark _fw-bold _ttf-cptl _ltspc-2px">Contact Us</h1>
+          <h1 class="_cl-dark _fw-bold _ttf-cptl _ltspc-8px">Contact Us</h1>
           <div class="_bgcl-primary _w-64px _mgt-8px _h-4px"></div>
           <h4
-            class="_cl-primary _lh-150pct  _fs-5-sm _fs-6 _ttf-upc _ltspc-2px _tal-ct _tal-l-sm _mgt-24px"
+            class="_cl-primary _lh-150pct  _fs-4-sm _fs-5 _ttf-upc _ltspc-2px _tal-ct _tal-l-sm _mgt-24px"
           >
             For further information or inquiries, <br />please feel free to
             contact us
@@ -62,7 +62,7 @@
         <div class="col-sm-6 col-10 _mgt-32px _mgt-0px-sm">
           <div
             v-scroll-reveal="{ delay: 300 }"
-            class="_bgcl-white _bsd-default _pd-24px _bdrd-12px _dp-f _fdrt-cl _fdrt-r  _alit-ct _alit-fst-sm _tal-ct _tal-l-sm _jtfct-spbtw _mgbt-32px-sm _mgbt-24px"
+            class="_bgcl-white _bsd-default _pd-24px _bdrd-12px _dp-f _fdrt-cl _fdrt-r  _alit-ct _alit-fst-sm _tal-ct _tal-l-sm _jtfct-spbtw _mgbt-16px-sm _mgbt-24px"
           >
             <h4
               id="head-office"
@@ -70,9 +70,9 @@
             >
               Head office (Bangkok)
             </h4>
-            <div class="_dp-f-sm _alit-fe">
+            <div>
               <h5
-                class="_fs-5-sm _fs-6 _cl-dark _lh-150pct _mgt-16px _mgr-16px _fw-light"
+                class="_fs-5-sm _fs-6 _cl-dark _lh-150pct _mgv-12px _mgr-16px _fw-light"
               >
                 1168/15 Zone B, Lumphini Tower, 12A Fl., Rama 4 Rd,
                 Thungmahamek, Sathorn, Bangkok 10120
@@ -98,9 +98,9 @@
             >
               Palm Garden Villa (Laem Chabang)
             </h4>
-            <div class="_dp-f-sm _alit-fe">
+            <div class="_mgt-12px">
               <h5
-                class="_fs-5-sm _fs-6 _cl-dark _lh-150pct _mgt-16px _mgr-16px _fw-light"
+                class="_fs-5-sm _fs-6 _cl-dark _lh-150pct _mgv-12px  _mgr-16px _fw-light"
               >
                 189/38 Moo. 9 T. Thungsukla Amphoe Sriracha 20230
               </h5>
