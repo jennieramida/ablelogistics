@@ -3,21 +3,21 @@
     <!-- Hero -->
     <div class="container _mgv-32px">
       <div class="row _mgt-32px-sm _pdt-32px _jtfct-ct">
-        <div class="col-12 _mgbt-32px _dp-f _fdrt-cl _alit-ct _alit-fst-sm">
+        <div class="col-12 _mgbt-32px _dp-f _fdrt-cl _alit-ct ">
           <h1
             v-scroll-reveal="{
               delay: 300,
               origin: 'left',
               distance: '120px'
             }"
-            class="_cl-dark _fw-bold _ttf-cptl _ltspc-2px _fs-1-sm _fs-2 _tal-ct _tal-l-sm"
+            class="_cl-dark _fw-bold _ttf-cptl _ltspc-8px _fs-1-sm _fs-2 _tal-ct "
           >
             Customs Broker Service
           </h1>
           <div class="_bgcl-primary _w-128px _mgt-12px _mgbt-24px _h-4px" />
           <h4
             v-scroll-reveal
-            class="_cl-primary-dark _lh-150pct  _fs-5-sm _fs-6 _ttf-upc _ltspc-2px _tal-ct _tal-l-sm"
+            class="_cl-primary-dark _lh-150pct  _fs-5-sm _fs-6 _ttf-upc _ltspc-2px _tal-ct "
           >
             Our in-house Customs consultants and customs specialist<br
               class="_dp-b-sm _dp-n"
@@ -26,23 +26,25 @@
           </h4>
         </div>
       </div>
-      <div class="row _alit-ct">
+      <div class="row _jtfct-ct">
         <div
           v-scroll-reveal="{ delay: 1200, origin: 'left', distance: '120px' }"
-          class="col-sm-6"
+          class="col-sm-5"
         >
           <img
             src="../../assets/images/services/customs-broker.jpg"
-            class="_w-100pct _bdrd-4px _bsd-default _ojf-cv"
+            class="_w-100pct _bdrd-4px _bsd-default _h-256px-sm _h-128px _ojf-cv"
             alt=""
           />
         </div>
+      </div>
+      <div class="row _jtfct-ct">
         <div
           v-scroll-reveal="{ delay: 1200, origin: 'right', distance: '120px' }"
-          class="col-sm-6 _pdl-32px-sm"
+          class="col-sm-6 "
         >
           <h4
-            class="_cl-dark _mgt-24px _lh-150pct _fw-light _fs-5 _fs-4-sm _tal-l-md _tal-ct"
+            class="_cl-dark _mgt-24px _lh-150pct _fw-light _fs-5 _fs-4-sm  _tal-l"
           >
             <ul>
               <li>Packing/Crating</li>

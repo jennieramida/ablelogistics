@@ -26,11 +26,7 @@
         </div>
         <div class="row _mgt-24px">
           <div class=" col-12 col-sm _pdh-0px">
-            <n-link
-              v-scroll-to="'#sea-freight'"
-              to="services#sea-freight"
-              class="service-box _bdw-1px"
-            >
+            <n-link to="/services/sea-freight" class="service-box _bdw-1px">
               <img src="../assets/images/s-1.png" class="service-icon" />
               <h5 class="_mgv-12px _fw-light _cl-primary-dark _tal-ct">
                 Sea Freight
@@ -40,8 +36,7 @@
           </div>
           <div class=" col-12 col-sm _pdh-0px">
             <n-link
-              v-scroll-to="'#air-freight'"
-              to="services#air-freight"
+              to="/services/air-freight"
               class="service-box _bdvw-1px-sm _bdlw-1px _bdlw-0px-sm _bdrw-1px"
             >
               <img src="../assets/images/s-2.png" class="service-icon" />
@@ -53,8 +48,7 @@
           </div>
           <div class=" col-12 col-sm _pdh-0px">
             <n-link
-              v-scroll-to="'#rail-road'"
-              to="services#rail-road"
+              to="/services/rail-road"
               class="service-box _bdvw-1px-sm _bdtw-1px _bdlw-1px _bdlw-0px-sm _bdrw-1px"
             >
               <img src="../assets/images/s-3.png" class="service-icon" />
@@ -78,8 +72,7 @@
           </div>
           <div class="col-12 col-sm _pdh-0px">
             <n-link
-              v-scroll-to="'#in-transit'"
-              to="services#in-transit"
+              to="/services/in-transit"
               class="service-box  _bdvw-1px-sm _bdbtw-1px _bdlw-1px _bdlw-0px-sm _bdrw-1px"
             >
               <img src="../assets/images/s-5.png" class="service-icon" />
