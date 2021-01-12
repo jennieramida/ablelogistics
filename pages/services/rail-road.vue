@@ -41,7 +41,7 @@
           class="col-sm-6"
         >
           <h4
-            class="_cl-dark _mgt-24px _lh-150pct _fw-light _fs-5 _fs-4-sm _tal-ct"
+            class="_cl-dark _mgt-24px _lh-150pct _fw-regular  _fs-5 _fs-4-sm _tal-ct"
           >
             Millions of tons of cargo transported by road every year. We
             constantly update rates with our carriers, making sure that our

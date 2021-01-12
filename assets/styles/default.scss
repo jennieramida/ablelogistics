@@ -167,10 +167,10 @@ button {
   font-weight: 600;
 }
 ._fw-regular {
-  font-weight: 400;
+  font-weight: 400 !important;
 }
 ._fw-light {
-  font-weight: 200;
+  font-weight: 200 !important;
 }
 ._bsd-default {
   box-shadow: 4px 4px 15px rgba(96, 174, 202, 0.1),

@@ -17,7 +17,7 @@
           <div class="_bgcl-primary _w-128px _mgt-12px _mgbt-24px _h-4px" />
           <h4
             v-scroll-reveal
-            class="_cl-primary-dark _lh-150pct  _fs-5-sm _fs-6 _ttf-upc _ltspc-2px _tal-ct"
+            class="_cl-primary-dark _lh-150pct _fw-regular  _fs-5-sm _fs-6 _ttf-upc _ltspc-2px _tal-ct"
           >
             We understand the importance of urgency and accuracy
             <br class="_dp-b-sm _dp-n" />
@@ -43,7 +43,7 @@
           class="col-sm-6 "
         >
           <h4
-            class="_cl-dark _mgt-24px _lh-150pct _fw-light _fs-5 _fs-4-sm _tal-ct"
+            class="_cl-dark _mgt-24px _lh-150pct _fw-regular  _fs-5 _fs-4-sm _tal-ct"
           >
             Over the last several years, we have successfully built and
             maintained strong relationships with major airlines both in Thailand

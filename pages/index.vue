@@ -174,7 +174,7 @@ export default {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: transparent;
+  background-color: white;
   padding: 48px 0px;
   transition: 0.2s $bezier;
   border-color: $primary-medium;

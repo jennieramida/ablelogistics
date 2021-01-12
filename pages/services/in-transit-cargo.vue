@@ -44,7 +44,7 @@
           class="col-sm-6 "
         >
           <h4
-            class="_cl-dark _mgt-24px _lh-150pct _fw-light _fs-5 _fs-4-sm _tal-ct"
+            class="_cl-dark _mgt-24px _lh-150pct _fw-regular  _fs-5 _fs-4-sm _tal-ct"
           >
             A cross border trucking service to Laos, Cambodia and Malaysia
           </h4>

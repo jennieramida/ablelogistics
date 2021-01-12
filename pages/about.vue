@@ -1,7 +1,9 @@
 <template>
   <section>
     <div class="container">
-      <div class="row _mgt-32px-sm _pdt-32px _mgbt-32px-sm  _jtfct-ct">
+      <div
+        class="row _mgt-32px-sm _pdt-32px _mgbt-32px-sm  _jtfct-ct _pst-rlt _zid-1"
+      >
         <div
           class="col-12 _mgbt-64px-sm _mgbt-32px _dp-f _fdrt-cl _alit-ct _tal-ct"
         >
@@ -24,36 +26,29 @@
             customers will meet their satisfaction and service level.
           </h4>
         </div>
-        <div
-          v-scroll-reveal="{
-            delay: 200
-          }"
-          class="col-12 _dp-b-lg _dp-n col-lg-3 _h-at  _bdlw-1px-md _bdrw-1px-md _bdcl-primary-alpha col-md-4"
-        >
-          <img
-            src="https://images.unsplash.com/photo-1592963219751-3800a144a41e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=676&q=80"
-            alt=""
-            class="_w-100pct _ojf-cv _pdh-24px-md _pdr-0px _h-at"
-          />
+      </div>
+      <div class="row  _mgbt-128px-sm _mgbt-64px  _jtfct-ct _dp-f _pst-rlt">
+        <div class=" map-wrapper">
+          <img src="../assets/images/map.png" class="map-size" alt="" />
         </div>
         <div
           v-scroll-reveal="{
             delay: 400
           }"
-          class="col-12 col-lg-3  col-md-4 _mgbt-64px _bdrw-1px-md _bdcl-primary-alpha _mgbt-0px-md"
+          class="col-12 col-lg-3 col-md-4 _pst-rlt _zid-1 _mgbt-64px _bdrw-1px-md _bdcl-primary-alpha _mgbt-0px-md"
         >
           <img
             src="../assets/images/ab3.jpg"
-            class="_w-100pct  _h-256px _h-128px-md _ojf-cv _pdh-24px-md _pdr-0px"
+            class="_w-100pct  _h-256px _h-128px-md _ojf-cv _pdh-24px-lg _pdh-12px-md _pdr-0px"
             alt=""
           />
           <h4
-            class="_ttf-cptl _fw-600 _cl-dark _mgt-32px _mgbt-24px _pdh-24px-md _pdr-0px"
+            class="_tal-ct-sm _ttf-cptl _fw-600 _cl-dark _mgt-32px _mgbt-24px _pdh-24px-lg _pdh-12px-md _pdr-0px"
           >
             Know more about us
           </h4>
           <h6
-            class="_lh-150pct _cl-primary-dark _fw-bold _pdh-24px-md _pdr-0px"
+            class="_lh-150pct _cl-primary-dark _fw-bold _pdh-24px-lg _pdh-12px-md _pdr-0px"
           >
             Able logistics is an international freight forwarding company
             established on 2005 in Bangkok, Thailand. It is strategically
@@ -66,20 +61,20 @@
           v-scroll-reveal="{
             delay: 600
           }"
-          class="col-12 col-lg-3  col-md-4 _mgbt-64px _bdrw-1px-md _bdcl-primary-alpha _mgbt-0px-md "
+          class="col-12 col-lg-3 col-md-4 _pst-rlt _zid-1 _mgbt-64px _bdrw-1px-md _bdcl-primary-alpha _mgbt-0px-md "
         >
           <img
             src="../assets/images/ab2.jpg"
-            class="_w-100pct  _h-256px _h-128px-md _ojf-cv _pdh-24px-md _pdr-0px"
+            class="_w-100pct  _h-256px _h-128px-md _ojf-cv _pdh-24px-lg _pdh-12px-md _pdr-0px"
             alt=""
           />
           <h4
-            class="_ttf-cptl _fw-600 _cl-dark _mgt-32px _mgbt-24px _pdh-24px-md _pdr-0px"
+            class="_tal-ct-sm _ttf-cptl _fw-600 _cl-dark _mgt-32px _mgbt-24px _pdh-24px-lg _pdh-12px-md _pdr-0px"
           >
             Where it all begins
           </h4>
           <h6
-            class="_lh-150pct _cl-primary-dark _fw-bold  _pdh-24px-md _pdr-0px"
+            class="_lh-150pct _cl-primary-dark _fw-bold  _pdh-24px-lg _pdh-12px-md _pdr-0px"
           >
             ... We started off as a small business mainly to earn and build
             customer loyalty through our passion and sincerity. Since then, our
@@ -93,20 +88,20 @@
           v-scroll-reveal="{
             delay: 800
           }"
-          class="col-12 col-lg-3  col-md-4 _mgbt-64px _bdrw-1px-md _bdcl-primary-alpha _mgbt-0px-md"
+          class="col-12 col-lg-3 col-md-4 _pst-rlt _zid-1 _mgbt-64px  _mgbt-0px-md"
         >
           <img
             src="../assets/images/ab4.jpg"
-            class="_w-100pct  _h-256px _h-128px-md _ojf-cv _pdh-24px-md _pdr-0px"
+            class="_w-100pct  _h-256px _h-128px-md _ojf-cv _pdh-24px-lg _pdh-12px-md _pdr-0px"
             alt=""
           />
           <h4
-            class="_ttf-cptl _fw-600 _cl-dark _mgt-32px _mgbt-24px _pdh-24px-md _pdr-0px"
+            class="_tal-ct-sm _ttf-cptl _fw-600 _cl-dark _mgt-32px _mgbt-24px _pdh-24px-lg _pdh-12px-md _pdr-0px"
           >
             Understand our aim
           </h4>
           <h6
-            class="_lh-150pct _cl-primary-dark _fw-bold _pdh-24px-md _pdr-0px"
+            class="_lh-150pct _cl-primary-dark _fw-bold _pdh-24px-lg _pdh-12px-md _pdr-0px"
           >
             To be the leader in the Freight Forwarding business and achieve
             customer positive sentiment by our full range of logistics services.
@@ -181,5 +176,27 @@ export default {
   @media (min-width: $sm) {
     height: 350px;
   }
+}
+.map-wrapper {
+  display: flex;
+  position: fixed;
+  top: 250px;
+  @media (min-width: 840px) {
+    display: flex;
+    position: absolute;
+    top: -50px;
+  }
+}
+.map-size {
+  @media (min-width: 840px) {
+    width: 100%;
+    opacity: 0.5;
+    height: 90vh;
+    object-fit: contain;
+    z-index: 0;
+  }
+  height: 100vh;
+  opacity: 0.4;
+  z-index: -10;
 }
 </style>

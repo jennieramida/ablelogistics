@@ -17,7 +17,7 @@
           <div class="_bgcl-primary _w-128px _mgt-12px _mgbt-24px _h-4px" />
           <h4
             v-scroll-reveal
-            class="_cl-primary-dark _lh-150pct  _fs-5-sm _fs-6 _ttf-upc _ltspc-2px _tal-ct "
+            class="_fw-regular _cl-primary-dark _lh-150pct  _fs-5-sm _fs-6 _ttf-upc _ltspc-2px _tal-ct "
           >
             We Able logistics, has the capability and experience
             <br class="_dp-b-sm _dp-n" />
@@ -42,7 +42,9 @@
           v-scroll-reveal="{ delay: 1200, origin: 'right', distance: '120px' }"
           class="col-sm-6 _tal-ct"
         >
-          <h4 class="_cl-dark _mgt-24px _lh-150pct _fw-light _fs-5 _fs-4-sm ">
+          <h4
+            class="_cl-dark _mgt-24px _lh-150pct _fw-regular  _fs-5 _fs-4-sm "
+          >
             With links to all TH ports and our network partners links to most
             international ports, we are able to provide both import and export
             clearance to all forms of Sea freight.
