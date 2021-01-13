@@ -73,7 +73,7 @@
           <div class="col-12 col-sm _pdh-0px">
             <n-link
               to="/services/in-transit"
-              class="service-box  _bdvw-1px-sm _bdbtw-1px _bdlw-1px _bdlw-0px-sm _bdrw-1px"
+              class="service-box  _bdvw-1px-sm _bdtw-1px _bdbtw-1px _bdlw-1px _bdlw-0px-sm _bdrw-1px"
             >
               <img src="../assets/images/s-5.png" class="service-icon" />
               <h5 class="_mgv-12px _fw-light _cl-primary-dark _tal-ct">
