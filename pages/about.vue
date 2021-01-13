@@ -2,7 +2,7 @@
   <section>
     <div class="container">
       <div
-        class="row _mgt-32px-sm _pdt-32px _mgbt-32px-sm  _jtfct-ct _pst-rlt _zid-1"
+        class="row _mgt-32px-sm _pdt-32px _mgbt-32px-sm  _jtfct-ct _pst-rlt _zid-0"
       >
         <div
           class="col-12 _mgbt-64px-sm _mgbt-32px _dp-f _fdrt-cl _alit-ct _tal-ct"
@@ -20,7 +20,7 @@
           <div class="_bgcl-primary _w-128px _mgt-12px _mgbt-24px _h-4px" />
           <h4
             v-scroll-reveal
-            class="_cl-primary _lh-150pct  _fs-5-sm _fs-6 _ttf-upc _ltspc-2px"
+            class="_cl-primary _lh-150pct  _fs-5-sm _fs-6 _ttf-upc _ltspc-4px"
           >
             With over 20 years of long experience, <br />we guarantee that our
             customers will meet their satisfaction and service level.
@@ -42,11 +42,11 @@
             class="_w-100pct  _h-256px _h-128px-md _ojf-cv _pdh-24px-lg _pdh-12px-md _pdr-0px"
             alt=""
           />
-          <h4
-            class="_tal-ct-sm _ttf-cptl _fw-600 _cl-dark _mgt-32px _mgbt-24px _pdh-24px-lg _pdh-12px-md _pdr-0px"
+          <h3
+            class="_ttf-upc _ltspc-4px _tal-ct _ttf-cptl _fw-600 _cl-dark _mgt-32px _mgbt-24px _pdh-24px-lg _pdh-12px-md _pdr-0px"
           >
-            Know more about us
-          </h4>
+            Know more <br />about us
+          </h3>
           <h6
             class="_lh-150pct _cl-primary-dark _fw-bold _pdh-24px-lg _pdh-12px-md _pdr-0px"
           >
@@ -68,11 +68,11 @@
             class="_w-100pct  _h-256px _h-128px-md _ojf-cv _pdh-24px-lg _pdh-12px-md _pdr-0px"
             alt=""
           />
-          <h4
-            class="_tal-ct-sm _ttf-cptl _fw-600 _cl-dark _mgt-32px _mgbt-24px _pdh-24px-lg _pdh-12px-md _pdr-0px"
+          <h3
+            class="_ttf-upc _ltspc-4px _tal-ct _ttf-cptl _fw-600 _cl-dark _mgt-32px _mgbt-24px _pdh-24px-lg _pdh-12px-md _pdr-0px"
           >
-            Where it all begins
-          </h4>
+            Where it <br />all begins
+          </h3>
           <h6
             class="_lh-150pct _cl-primary-dark _fw-bold  _pdh-24px-lg _pdh-12px-md _pdr-0px"
           >
@@ -95,11 +95,11 @@
             class="_w-100pct  _h-256px _h-128px-md _ojf-cv _pdh-24px-lg _pdh-12px-md _pdr-0px"
             alt=""
           />
-          <h4
-            class="_tal-ct-sm _ttf-cptl _fw-600 _cl-dark _mgt-32px _mgbt-24px _pdh-24px-lg _pdh-12px-md _pdr-0px"
+          <h3
+            class="_ttf-upc _ltspc-4px _tal-ct _ttf-cptl _fw-600 _cl-dark _mgt-32px _mgbt-24px _pdh-24px-lg _pdh-12px-md _pdr-0px"
           >
-            Understand our aim
-          </h4>
+            Understand <br />our aim
+          </h3>
           <h6
             class="_lh-150pct _cl-primary-dark _fw-bold _pdh-24px-lg _pdh-12px-md _pdr-0px"
           >
@@ -193,10 +193,10 @@ export default {
     opacity: 0.5;
     height: 90vh;
     object-fit: contain;
-    z-index: 0;
+    z-index: 0 !important;
   }
   height: 100vh;
   opacity: 0.4;
-  z-index: -10;
+  z-index: -10 !important;
 }
 </style>

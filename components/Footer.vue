@@ -1,5 +1,5 @@
 <template>
-  <div class="_bgcl-black _pdv-32px-sm _pdv-24px">
+  <div class="_bgcl-black _pdv-32px-sm _pdv-24px _pst-rlt _zid-1">
     <div class="container">
       <div class="row _dp-f _jtfct-spbtw">
         <div class="col-md-4 col-sm-3 col-12 _dp-f _dp-b-sm ">
@@ -116,11 +116,11 @@ export default {
         title: 'Our Services',
         path: '/services',
         subMenu: [
-          { title: 'Sea freight', path: '/services#sea-freight' },
-          { title: 'Air freight', path: '/services#air-freight' },
-          { title: 'Rail Road Service', path: '/services#rail-road' },
+          { title: 'Sea freight', path: '/services/sea-freight' },
+          { title: 'Air freight', path: '/services/air-freight' },
+          { title: 'Rail Road Service', path: '/services/rail-road' },
           { title: 'Customs Broker', path: '/services/customs-broker' },
-          { title: 'In-Transit Cargo', path: '/services#in-transit' }
+          { title: 'In-Transit Cargo', path: '/services/in-transit' }
         ]
       },
       {
