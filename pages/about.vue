@@ -43,9 +43,9 @@
             alt=""
           />
           <h3
-            class="_ttf-upc _ltspc-4px _tal-ct _ttf-cptl _fw-600 _cl-dark _mgt-32px _mgbt-24px _pdh-24px-lg _pdh-12px-md _pdr-0px"
+            class="_ttf-upc _ltspc-8px _tal-ct _ttf-cptl _fw-600 _cl-dark _mgt-32px _mgbt-24px _pdh-24px-lg _pdh-12px-md _pdr-0px"
           >
-            Know more <br />about us
+            Know <br />more <br />about <br />us
           </h3>
           <h6
             class="_lh-150pct _cl-primary-dark _fw-bold _pdh-24px-lg _pdh-12px-md _pdr-0px"
@@ -69,9 +69,9 @@
             alt=""
           />
           <h3
-            class="_ttf-upc _ltspc-4px _tal-ct _ttf-cptl _fw-600 _cl-dark _mgt-32px _mgbt-24px _pdh-24px-lg _pdh-12px-md _pdr-0px"
+            class="_ttf-upc _ltspc-8px _tal-ct _ttf-cptl _fw-600 _cl-dark _mgt-32px _mgbt-24px _pdh-24px-lg _pdh-12px-md _pdr-0px"
           >
-            Where it <br />all begins
+            Where <br />it all <br />begins
           </h3>
           <h6
             class="_lh-150pct _cl-primary-dark _fw-bold  _pdh-24px-lg _pdh-12px-md _pdr-0px"
@@ -96,9 +96,9 @@
             alt=""
           />
           <h3
-            class="_ttf-upc _ltspc-4px _tal-ct _ttf-cptl _fw-600 _cl-dark _mgt-32px _mgbt-24px _pdh-24px-lg _pdh-12px-md _pdr-0px"
+            class="_ttf-upc _ltspc-8px _tal-ct _ttf-cptl _fw-600 _cl-dark _mgt-32px _mgbt-24px _pdh-24px-lg _pdh-12px-md _pdr-0px"
           >
-            Understand <br />our aim
+            Understand <br />our <br />aim
           </h3>
           <h6
             class="_lh-150pct _cl-primary-dark _fw-bold _pdh-24px-lg _pdh-12px-md _pdr-0px"
