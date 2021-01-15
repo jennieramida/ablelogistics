@@ -45,7 +45,7 @@
           <h3
             class="_ttf-upc _ltspc-8px _tal-ct _ttf-cptl _fw-600 _cl-dark _mgt-32px _mgbt-24px _pdh-24px-lg _pdh-12px-md _pdr-0px"
           >
-            Know <br />more <br />about <br />us
+            Know <br />more <br />about us
           </h3>
           <h6
             class="_lh-150pct _cl-primary-dark _fw-bold _pdh-24px-lg _pdh-12px-md _pdr-0px"
@@ -76,12 +76,12 @@
           <h6
             class="_lh-150pct _cl-primary-dark _fw-bold  _pdh-24px-lg _pdh-12px-md _pdr-0px"
           >
-            ... We started off as a small business mainly to earn and build
-            customer loyalty through our passion and sincerity. Since then, our
-            company has grown rapidly. With a growing number of well-trained
-            staffs, our large customer based national wide and a strong
-            worldwide network, we ensure that we can render supreme service to
-            our customers in all respects.
+            We started off as a small business mainly to earn and build customer
+            loyalty through our passion and sincerity. Since then, our company
+            has grown rapidly. With a growing number of well-trained staffs, our
+            large customer based national wide and a strong worldwide network,
+            we ensure that we can render supreme service to our customers in all
+            respects.
           </h6>
         </div>
         <div
